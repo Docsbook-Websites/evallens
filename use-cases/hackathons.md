@@ -16,6 +16,10 @@ At a hackathon the rubric puts most of the weight on execution and innovation, a
 | ~5% | Share of projects the average judge actually saw at HackMIT, where 100 judges covered more than 200 projects |
 | 70% | Share of a standard Devpost rubric riding on technical execution and innovation, assessed from a demo video nobody is required to watch to the end |
 
+## Is AI-assisted judging fair?
+
+Only if a human can check its work. EvalLens's panel is not one model guessing at a mood: five independent reviewer roles read every submission against your locked rubric, cite the slide, quote or line of the deck each score rests on, and hand the result to your jury as a report — not a verdict. **The AI Total Score is advisory only; the leaderboard is built from the Jury Score a person sets.** When a team or sponsor asks why a submission placed where it did, the answer is the cited finding behind the score, not a shrug.
+
 ## The hackathon panel
 
 Hackathon mode runs **five reviewer roles** — Innovation, Technical Execution, Business Value, Pitch Quality and Feasibility — reading every submission independently across six dimensions.
