@@ -5,6 +5,8 @@ description: "Cohort selection end to end: keep your existing intake, every appl
 
 # Accelerators
 
+**Accelerator management software** is how a program tracks applications, coordinates reviewers and runs cohort selection — application platforms like F6S, YouNoodle or Submittable handle intake and logistics. EvalLens is the review layer on top of that: every application read in full with an evidence-linked score, so your committee decides from verified findings instead of raw submissions.
+
 A cohort intake is a volume problem with a reputation attached: hundreds of applications in a two-to-three-week window, a team of two to five, and a rejection that most founders never get a reason for. This page is how that round runs with a structured first read underneath it.
 
 ## The intake, in numbers
