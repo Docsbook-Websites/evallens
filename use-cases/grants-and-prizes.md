@@ -5,6 +5,8 @@ description: "Structured first read for funders: where AI policy allows it and w
 
 # Grants and prizes
 
+Grant management software — platforms like Submittable, Fluxx, SmartSimple and OpenWater — handles intake, applicant portals and disbursement for a funding round. EvalLens isn't a replacement for that stack: it's the AI-assisted review and scoring layer that plugs into whichever system you already run, reading every application against a locked rubric to produce comparable scores and a defensible, evidence-backed record for your panel.
+
 Grant and prize rounds carry two pressures a competition does not: a documented consistency problem, and an appeal that can arrive years later. This page covers both, including the rules that say AI must stay out of merit assessment entirely.
 
 ## The review cycle, in numbers
