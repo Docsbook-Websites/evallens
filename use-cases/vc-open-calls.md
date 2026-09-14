@@ -5,6 +5,8 @@ description: "Open calls, scout batches and demo days: every submitted deck read
 
 # VC open calls
 
+**VC deal flow software** is how a fund tracks, triages and acts on inbound and sourced deals: pipeline CRMs like Affinity, sourcing tools like Harmonic or Specter that surface companies, and — the piece those tools don't do — a layer that actually reads what founders submit. EvalLens is that layer for open calls and scout batches: every deck read in full against your investment dimensions, advisory only, with partners always deciding.
+
 An open call publicly invites founders to apply, and then the median submission gets about 150 seconds and silence. This page is how the same call runs when every deck is actually read.
 
 ## Cold inbound, honestly
