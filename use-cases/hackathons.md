@@ -5,6 +5,8 @@ description: "Five reviewer roles, a rubric where Execution and Demo carries 0.3
 
 # Hackathons
 
+Hackathon judging software — sometimes called hackathon management software — collects submissions, scores every project against a published rubric, and gives each judge a structured read before the table visit, so a result survives being questioned in public. EvalLens runs that layer for hackathons: a five-role AI panel pre-reads every submission against a weighted rubric, briefs each judge with cited evidence, and keeps the record organizers show a team that asks "how was this scored?"
+
 At a hackathon the rubric puts most of the weight on execution and innovation, and then asks a judge to grade both from a three-minute demo video and a four-minute table visit. That gap is what a first read closes.
 
 ## The judging table, honestly
@@ -15,10 +17,6 @@ At a hackathon the rubric puts most of the weight on execution and innovation, a
 | 18 judges | What the MLH formula J = ceil(P × n × t / T) demands for 175 projects in a two-hour expo at three rounds each |
 | ~5% | Share of projects the average judge actually saw at HackMIT, where 100 judges covered more than 200 projects |
 | 70% | Share of a standard Devpost rubric riding on technical execution and innovation, assessed from a demo video nobody is required to watch to the end |
-
-## Is AI-assisted judging fair?
-
-**Yes — when a judge can check the score in under a minute instead of just trusting a number.** The question every organizer hits after round one isn't "is the AI accurate," it's "can a human verify this before a trophy is handed out." EvalLens never hands down a verdict on its own: every Execution and Demo score carries the exact quote, timestamp or slide it was read from, so a judge can confirm or override it at the table in the time it takes to glance at a phone. The AI does one exhaustive first read across every submission; a human decides every placement, and where two reviewers disagreed, the report says so instead of averaging it away. That's the structure hackathon judging is converging on publicly — keep the machine's reasoning visible and cited, keep the decision with a person.
 
 ## The hackathon panel
 
