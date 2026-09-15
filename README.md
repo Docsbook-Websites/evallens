@@ -5,6 +5,8 @@ description: "How EvalLens collects pitch decks, reads every one against your ru
 
 # EvalLens documentation
 
+**Judging software** is a tool that lets multiple judges score contestants against shared criteria and aggregates those scores into a transparent, ranked result — replacing paper scorecards and spreadsheets with a shared scoring interface. Most judging software, including tools like ScoreJudge, collects and averages human scores. EvalLens is judging software with an AI panel built in: six independent AI judges read every submission first and cite their evidence, and a human still sets the score that ranks.
+
 EvalLens is the evaluation layer for selection programs that receive more applications than their reviewers can read. Teams submit through one entry point, a panel of independent AI judges reads every submission against your rubric, and your jury gets an evidence-linked report and a ranked board. **The AI Total Score is advisory; the leaderboard is built from the Jury Score a person sets.**
 
 These pages document how that works in practice: what to configure before a run, what happens to a deck inside the pipeline, how to read what comes back, and what EvalLens deliberately does not do.
