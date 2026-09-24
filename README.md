@@ -1,85 +1,78 @@
 ---
 title: "EvalLens documentation: run a selection round end to end"
-description: "How EvalLens collects pitch decks, reads every one against your rubric with a six-judge AI panel, and hands your jury an evidence-linked report. The human sets the score."
+description: "Documentation for EvalLens: configure a selection round, collect pitch decks, run the six-judge panel, inspect evidence, and set the human ranking."
+status: generated
+version: "0.2"
 ---
 
 # EvalLens documentation
 
-**Judging software** is a tool that lets multiple judges score contestants against shared criteria and aggregates those scores into a transparent, ranked result — replacing paper scorecards and spreadsheets with a shared scoring interface. Most judging software, including tools like ScoreJudge, collects and averages human scores. EvalLens is judging software with an AI panel built in: six independent AI judges read every submission first and cite their evidence, and a human still sets the score that ranks.
+EvalLens is the evaluation layer for selection programs that receive more applications than their reviewers can read. Teams submit through one entry point, a panel of independent AI judges reads every submission against your rubric, and your jury receives an evidence-linked report. **The AI Total Score is advisory; the leaderboard is built from the Jury Score a person sets.**
 
-EvalLens is the evaluation layer for selection programs that receive more applications than their reviewers can read. Teams submit through one entry point, a panel of independent AI judges reads every submission against your rubric, and your jury gets an evidence-linked report and a ranked board. **The AI Total Score is advisory; the leaderboard is built from the Jury Score a person sets.**
+This is the documentation entry point. Use the sections below to learn the vocabulary, run a round, inspect the scoring method, check the trust boundaries, or choose the material for your program type.
 
-These pages document how that works in practice: what to configure before a run, what happens to a deck inside the pipeline, how to read what comes back, and what EvalLens deliberately does not do.
+## Start with the workflow
 
-<!-- widget:cards -->
+<!-- widget:cards plain cols=2 -->
 
-## Start here
+- [Getting started](./getting-started.md) — Create a project, collect a batch, run the panel, and generate a human-ranked leaderboard. {rocket}
+- [Core concepts](./concepts.md) — Define projects, entries, judges, dimensions, scores, evidence, and the pipeline. {compass}
+- [Run an evaluation](./guides/run-an-evaluation.md) — Follow Decoder, AI Judges, Summarizer, Scoring, and Report. {play}
+- [Read a report](./guides/read-a-report.md) — Use the summary, evidence-linked score report, and questions for live Q&A. {file-text}
 
-- [Getting started](./getting-started.md) — from the partner call to your first ranked leaderboard {rocket}
-- [Core concepts](./concepts.md) — project, entry, judge, dimension, and the three different scores {compass}
-- [Pricing](./pricing.md) — what a package includes and how submissions are counted {credit-card}
-- [FAQ](./faq.md) — the questions organizers ask before the first batch {circle-help}
+<!-- /widget -->
 
-## Run a round
+## Guides
 
-- [Set up a project](./guides/set-up-a-project.md) — the five-step wizard: details, criteria, judges, intake, review {settings}
-- [Collect submissions](./guides/collect-submissions.md) — manual entry or a public submission page {inbox}
-- [Run an evaluation](./guides/run-an-evaluation.md) — readiness checks and the five pipeline stages {play}
-- [Read a report](./guides/read-a-report.md) — the three layers and what each one is for {file-text}
-- [Score and shortlist](./guides/score-and-shortlist.md) — Review Board, Jury Scores, leaderboard {gavel}
-- [Criteria and weights](./guides/criteria-and-weights.md) — the default rubric, editing it, and the lock {sliders}
-- [Brief your jury](./guides/brief-your-jury.md) — the six-block briefing pack and the 11-minute calibration {users}
-- [For applicants](./guides/for-applicants.md) — what teams submit and what happens to it {upload}
+<!-- widget:cards plain cols=2 -->
 
-## The panel
+- [Set up a project](./guides/set-up-a-project.md) — Choose a mode, configure criteria and weights, add judges, and review the project. {settings}
+- [Collect submissions](./guides/collect-submissions.md) — Add teams manually or collect decks through a public submission page. {inbox}
+- [Criteria and weights](./guides/criteria-and-weights.md) — Review the default rubric, edit weights, and understand when they lock. {sliders}
+- [Brief your jury](./guides/brief-your-jury.md) — Prepare the rubric, scoring procedure, disagreement rule, and calibration. {users}
+- [Score and shortlist](./guides/score-and-shortlist.md) — Set Jury Scores, compare evidence, and generate the leaderboard. {gavel}
+- [For applicants](./guides/for-applicants.md) — Explain what teams submit and what happens to their entry. {upload}
 
-- [The six judges](./panel/judges.md) — what each lens reads and why they never see each other {scan-eye}
-- [Dimensions P1–P6](./panel/dimensions.md) — the six questions, with anchors for a 3 against a 7 {list-checks}
+<!-- /widget -->
 
-## Scoring
+## Scoring and the panel
 
-- [How the score is built](./scoring/how-the-score-is-built.md) — routing weights, confidence, aggregation {calculator}
-- [Disagreement and spread](./scoring/disagreement-and-spread.md) — consensus, split, conflict {git-compare}
-- [Reproducibility](./scoring/reproducibility.md) — what is deterministic, what is measured {repeat}
+<!-- widget:cards plain cols=2 -->
 
-## Trust
+- [The six judges](./panel/judges.md) — See what each independent lens reads and how routing works. {scan-eye}
+- [Dimensions P1–P6](./panel/dimensions.md) — Review the six questions and their score anchors. {list-checks}
+- [How the score is built](./scoring/how-the-score-is-built.md) — Trace routing weights, confidence, aggregation, and the Final Score. {calculator}
+- [Disagreement and spread](./scoring/disagreement-and-spread.md) — Interpret consensus, split, and conflict signals. {git-compare}
+- [Reproducibility](./scoring/reproducibility.md) — Separate deterministic aggregation from the model-based judge layer. {repeat}
 
-- [What EvalLens does not do](./trust/boundaries.md) — the four things it is not {shield-alert}
-- [Prompt-injection safety](./trust/prompt-injection-safety.md) — a deck is evidence, never an instruction {shield}
-- [Security and privacy](./trust/security-and-privacy.md) — workspace scope, access control, report delivery {lock}
+<!-- /widget -->
+
+## Trust and boundaries
+
+<!-- widget:cards plain cols=2 -->
+
+- [What EvalLens does not do](./trust/boundaries.md) — Understand the limits: no external truth check, investment advice, or automatic winner selection. {shield-alert}
+- [Prompt-injection safety](./trust/prompt-injection-safety.md) — Treat a deck as evidence, never as an instruction to the evaluator. {shield}
+- [Security and privacy](./trust/security-and-privacy.md) — See workspace scope, access control, and report delivery. {lock}
+
+<!-- /widget -->
 
 ## By program type
 
-- [Pitch competitions](./use-cases/pitch-competitions.md) — the written round, pre-read {trophy}
-- [Accelerators](./use-cases/accelerators.md) — one standard across a cohort {rocket}
-- [VC open calls](./use-cases/vc-open-calls.md) — inbound decks into a partner-ready first read {briefcase}
-- [Grants and prizes](./use-cases/grants-and-prizes.md) — a score that survives an appeal {award}
-- [Hackathons](./use-cases/hackathons.md) — execution-weighted judging before the expo floor {wrench}
+<!-- widget:cards plain cols=2 -->
+
+- [Pitch competitions](./use-cases/pitch-competitions.md) — Apply the workflow to a written-round or pitch-competition field. {trophy}
+- [Accelerators](./use-cases/accelerators.md) — Apply one standard across a cohort while keeping committee decisions human. {rocket}
+- [VC open calls](./use-cases/vc-open-calls.md) — Turn inbound decks into a partner-ready first read. {briefcase}
+- [Grants and prizes](./use-cases/grants-and-prizes.md) — Keep a score and evidence trail that can survive an appeal. {award}
+- [Hackathons](./use-cases/hackathons.md) — Use execution-weighted judging before the expo floor. {wrench}
 
 <!-- /widget -->
 
-## What makes an EvalLens score different
+## Reference pages
 
-**Evidence comes before the number.** A judge must cite the slide, state what supports the score and what lowers it, name the rubric band, and only then pick a number inside that band. On a boundary with evidence missing, the rule is the lower band.
+- [FAQ](./faq.md) — Answers to recurring organizer questions.
+- [Glossary](./glossary.md) — Alphabetical definitions for the terms used across the docs.
+- [Pricing](./pricing.md) — Packages, submission counts, validity windows, and what each package includes.
 
-**Six lenses, not one opinion.** Six judges read each deck independently and never see one another's scores. Where they disagree, the report shows the spread instead of averaging it away.
-
-**The arithmetic is deterministic.** No model call runs during final aggregation: the same judge outputs and weights produce the same AI Total Score every time.
-
-**The ranking is human.** The leaderboard is built only from submitted Jury Scores and your criterion weights. The AI Total Score sits beside them as a read-only reference.
-
-## Where this fits
-
-EvalLens does not replace your judges, your intake tool, or your rules. It runs the first read of the whole field so that judge hours go to decisions instead of triage — and leaves a record that explains, months later, why a submission placed where it did.
-
-<!-- widget:cta -->
-
-**Run it on your own field**
-
-## Book a partner call
-
-EvalLens is currently available through a limited partner program: there is no public sign-up. Tell us what your program reviews and roughly how many decks are in the pile, and access is set up for your team.
-
-[Book a call](https://calendly.com/evallens/30min) · [Getting started](./getting-started.md)
-
-<!-- /widget -->
+The documentation keeps the distinction between preparation and decision explicit: AI judges read and explain the evidence, while people set the Jury Scores and make the final ranking.
