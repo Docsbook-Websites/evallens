@@ -2,7 +2,7 @@
 title: "EvalLens documentation: run a selection round end to end"
 description: "Documentation for EvalLens: configure a selection round, collect pitch decks, run the six-judge panel, inspect evidence, and set the human ranking."
 status: generated
-version: "0.2"
+version: "0.3"
 ---
 
 # EvalLens documentation
@@ -71,8 +71,12 @@ This is the documentation entry point. Use the sections below to learn the vocab
 
 ## Reference pages
 
-- [FAQ](./faq.md) — Answers to recurring organizer questions.
-- [Glossary](./glossary.md) — Alphabetical definitions for the terms used across the docs.
-- [Pricing](./pricing.md) — Packages, submission counts, validity windows, and what each package includes.
+<!-- widget:cards plain cols=2 -->
+
+- [FAQ](./faq.md) — Answers to recurring organizer questions. {circle-help}
+- [Glossary](./glossary.md) — Alphabetical definitions for the terms used across the docs. {book-a}
+- [Pricing](./pricing.md) — Packages, submission counts, validity windows, and what each package includes. {credit-card}
+
+<!-- /widget -->
 
 The documentation keeps the distinction between preparation and decision explicit: AI judges read and explain the evidence, while people set the Jury Scores and make the final ranking.
