@@ -1,73 +1,71 @@
 ---
-title: "Getting started with EvalLens: your first evaluated batch"
-description: "The organizer path from partner call to ranked leaderboard: create a project, set criteria, collect decks, run the panel, set Jury Scores, publish the ranking."
+title: "Getting started with EvalLens"
+description: "Set up a project, collect a batch, run the panel, inspect reports, and produce a leaderboard from human Jury Scores."
+status: generated
+version: "0.2"
 ---
 
-# Getting started: from an empty project to a ranked field
+# Getting started with EvalLens
 
-This page walks the whole organizer path once, in order. At the end you have a project with your rubric on it, a batch of collected submissions, an evidence-linked report per team, and a leaderboard ranked by your jury's scores.
+Follow these steps to take one selection round from an empty project to a human-ranked leaderboard.
 
 ## Before you start
 
-- **Access.** EvalLens is available through a limited partner program — there is no public sign-up. Access for your team is set up after a partner call.
-- **A rubric decision.** You can run the default six-dimension pitch rubric unchanged, or edit the weights. Decide before the batch runs: [weights lock when scoring starts](./guides/criteria-and-weights.md).
-- **The field.** Decks as PDF, PPT, PPTX, or a Google Slides link — one deck per team, up to 50 MB.
-- **Your judges.** Who sets the Jury Score, and when they will be in the room.
+You need access through the limited partner program, a decision about the rubric, the submission field, and the people who will set Jury Scores.
+
+Supported deck inputs are PDF, PPT, PPTX and Google Slides links. The current limit is one deck per team, up to 50 MB.
 
 <!-- widget:stepper -->
 
-### Sign in and open your workspace
+### Open the workspace
 
-Sign in with email and password or Google OAuth. You land in your own workspace: your projects and their status, with a place to start a new one.
+Sign in with email and password or Google OAuth. Your workspace contains your projects and their status.
 
 ### Create the project
 
-Choose the mode before the wizard opens — Pitch Competition runs a six-judge panel, Hackathon runs five. Then work through the five wizard steps: details, criteria and weights, judges, how decks are collected, and a final review.
+Choose the mode before the setup wizard opens. Pitch Competition uses six judges and dimensions P1–P6. Hackathon uses five reviewer roles and an execution-weighted rubric.
 
-Full walkthrough: [Set up a project](./guides/set-up-a-project.md).
+Complete the wizard for event details, criteria and weights, judges, collection, and final review.
 
-### Decide how decks arrive
+### Choose intake
 
-Two options, and they can be mixed. Add teams by hand from the project page — name, project, deck, and an optional note for the jury. Or publish a submission page and share one link, so teams upload their own decks and sign in with Google.
+Add teams from the project page, publish a submission page, or use both methods. The [collection guide](./guides/collect-submissions.md) explains access rules and readiness statuses.
 
-Full walkthrough: [Collect submissions](./guides/collect-submissions.md).
+### Check the batch
 
-### Check readiness, then run the panel
+Resolve incomplete entries before launching. Evaluation can start when at least one entry is ready; the run processes the ready batch in parallel.
 
-The project page shows what is ready, what is incomplete, and what still needs attention. Evaluation can start once at least one entry is ready; the whole batch is processed in parallel rather than deck by deck.
+### Run the evaluation
 
-Each deck passes the same five stages — Decoder, AI Judges, Summarizer, Scoring, Report. See [Run an evaluation](./guides/run-an-evaluation.md).
+Launch the five stages: Decoder, AI Judges, Summarizer, Scoring and Report. See [Run an evaluation](./guides/run-an-evaluation.md).
 
-### Read the reports before the room
+### Inspect the reports
 
-Each team comes back with a three-layer report: a project summary, an AI Score Report showing what shaped each dimension, and ranked questions for the live Q&A. Every finding cites the slide it came from.
+Open the Project Summary first, then the evidence and judge disagreement. Use the report's questions to prepare the live review.
 
-Start with the decks the report flags: high score with weak evidence, and dimensions where the judges split. See [Read a report](./guides/read-a-report.md).
+### Set Jury Scores
 
-### Set Jury Scores and generate the leaderboard
+In the Review Board, score each criterion from `0.0` to `10.0`. The AI Total Score is read-only and does not rank the batch.
 
-In the Review Board, score each criterion from 0.0 to 10.0. The AI Total Score stays read-only beside your number. Once every startup is scored, generate the ranking — it is built from Jury Scores weighted by your criteria.
+### Generate the leaderboard
 
-Full walkthrough: [Score and shortlist](./guides/score-and-shortlist.md).
+Generate the ranking after the human scores are submitted. The Final Score applies your criterion weights to the Jury Scores.
 
 <!-- /widget -->
 
-## What you have at the end of a run
+## What the run produces
 
-| Output | What it is for |
-|---|---|
-| Structured workspace | Every application in one place instead of scattered files and threads |
-| Deck-level evaluations | Scores across P1–P6 with a confidence signal on each |
-| Judge assessments and evidence | Each assessment tied back to the slide it came from |
-| Strengths, weaknesses, gaps | Alongside deck-completeness signals per section |
-| Leaderboard and comparison | Ranked by your Final Score, not by the AI score |
+- **Reports** — A summary, per-dimension analysis, evidence and live questions.
+- **Completeness signals** — Present, thin or missing sections across ten core areas.
+- **Review Board** — Status, scores, findings and comparison in one view.
+- **Leaderboard** — A ranking based on human Jury Scores and project weights.
 
-## A safer first run
+## Run a safe first test
 
-If this is the first time EvalLens touches a real result, run it in parallel instead of in place. Send a field you have already judged — last year's cohort, or this year's batch while your screeners work as usual — and compare the panel's read against the placements you already know. Nothing counts until you decide it does.
+Use a field that your team has already reviewed, such as last year's cohort. Compare the panel's evidence and ordering with the known result before changing your live process.
 
 ## Next steps
 
-- [Core concepts](./concepts.md) — the vocabulary the rest of these pages uses, including the three different scores.
-- [Brief your jury](./guides/brief-your-jury.md) — the one intervention with published evidence behind it.
-- [What EvalLens does not do](./trust/boundaries.md) — read this before you promise anything to a stakeholder.
+- [Core concepts](./concepts.md) — Learn the terms used across the reference.
+- [Brief your jury](./guides/brief-your-jury.md) — Prepare reviewers before scoring.
+- [What EvalLens does not do](./trust/boundaries.md) — State the product's limits clearly.

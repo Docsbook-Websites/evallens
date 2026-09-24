@@ -1,58 +1,50 @@
 ---
-title: "Collect pitch decks in the EvalLens Entry Hub"
-description: "Add teams by hand or publish a public submission page: access rules, submission window, invite linking, QR sharing, and the readiness check before judging starts."
+title: "Collect submissions in the Entry Hub"
+description: "Add teams manually or publish a submission page with access rules, a submission window, invites and readiness checks."
+status: generated
+version: "0.2"
 ---
 
-# Collect submissions
+# Collect submissions in the Entry Hub
 
-Before judging starts, most programs are already chasing files. Decks arrive through email, Forms, Airtable, Notion, Telegram and shared drives; some go missing, some arrive twice, and the details you need are split across all of them. The Entry Hub replaces that with one place where every deck and every detail lands in the same structure.
+The Entry Hub keeps each team, deck and note in one project. Use manual entry, a team submission page, or both.
 
-## Two ways to add teams
+## Choose an intake method
 
-You can use both in the same project.
+**Add manually** when applications already arrive through another tool. Add the team name, project, deck and optional note for the jury.
 
-**Add manually.** From the project page, add each team yourself: name, project, pitch deck, and an optional note for the jury. Use this when applications already came through a tool you are not replacing this season.
+**Publish a submission page** when teams should upload their own material. Share one link; teams sign in with Google and submit directly.
 
-**Team submission.** Publish a public submission page and share one link. Teams sign in with Google and upload their own decks — no email attachments, no accounts for you to manage.
+## What an entry contains
 
-## What one complete entry contains
-
-| Field | Rules |
+| Field | Rule |
 |---|---|
-| Pitch deck | PDF, PPT, PPTX, or a Google Slides link. One deck per team, up to 50 MB. |
-| Team and project details | The identifying fields your project asks for. |
-| Note for judges | Optional context the team can add. |
-| Entry status | Ready, incomplete, or submitted. |
+| Pitch deck | PDF, PPT, PPTX or Google Slides link; one deck per team; up to 50 MB |
+| Team and project details | The identifying fields configured for the project |
+| Note for judges | Optional context from the team |
+| Status | `ready`, `incomplete` or `submitted` |
 
-Every submission follows the same structure, which is what makes missing information easy to spot *before* judging starts rather than during it.
+## Configure the submission page
 
-## Submission controls
+- **Publish** only after the page and requirements are ready.
+- **Preview** the page before sharing it.
+- **Restrict access** to approved email addresses, or accept anyone with the link.
+- **Set the submission window** and close it before judging if later arrivals belong to another run.
+- **Share the link or QR code** through the channels your teams use.
+- **Link invites automatically** by adding a team email and matching the Google sign-in.
 
-- **Publish when ready.** The submission page stays private until you publish it. Before publishing, its public address returns 404 — the page does not exist for anyone who guesses the link.
-- **Preview before publishing.** Check exactly what teams will see before the page goes live.
-- **Open or restricted access.** Accept submissions from anyone with the link, or only from approved email addresses.
-- **Set the window.** Choose when submissions open and close. You can also close them when judging begins.
-- **Share by link or QR code.** Link, QR code, Telegram, or X — whichever channel your teams already read.
-- **Automatically link invites.** Add a team by email; when they sign in with the same Google account, their submission connects to that invite automatically.
+## Check readiness
 
-## The readiness check
+The project page shows how many entries are ready, incomplete and still need attention. Resolve exceptions before launching.
 
-The project page shows three counts: what is ready, what is incomplete, and what still needs attention. Chase the exceptions, not the pile.
+A run can start when at least one entry is ready. Incomplete entries are not silently included in that run.
 
-Evaluation can start once at least one entry is ready. Entries that are still incomplete when the run starts are not silently included — the batch reflects what was actually ready.
+## Tell applicants about AI
 
-## What teams experience
-
-The submission page states the program, the required materials, the deadline and when results are expected. Teams upload directly; there is no inbox to dig through on your side and no attachment limits to work around on theirs.
-
-If you want a page to send your applicants, [For applicants](./for-applicants.md) is written for them rather than for you.
-
-## A note worth putting on the form
-
-If AI is part of your evaluation, say so on the submission form in plain language, not in an appendix. The awkward version of this conversation is the one where a team discovers AI involvement after the results are announced. The honest framing is stronger than it sounds: every submission received a full read under identical rules, and humans made every ranking decision.
+State on the form that EvalLens assists the first read, applies the same rules to every entry, and does not make the final ranking. Link to [For applicants](./for-applicants.md) when teams need more detail.
 
 ## Next steps
 
-- [Run an evaluation](./run-an-evaluation.md) — what happens to a deck once the batch is ready.
-- [For applicants](./for-applicants.md) — the page to link from your own submission form.
-- [Security and privacy](../trust/security-and-privacy.md) — who can see a deck once it is uploaded.
+- [Run an evaluation](./run-an-evaluation.md) — Process the ready batch.
+- [For applicants](./for-applicants.md) — Share the applicant-facing explanation.
+- [Security and privacy](../trust/security-and-privacy.md) — Explain access and handling.
