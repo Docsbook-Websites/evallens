@@ -2,7 +2,7 @@
 title: "Set up an EvalLens project"
 description: "Choose a project mode, enter event details, configure criteria and weights, select intake, and complete the pre-flight review."
 status: generated
-version: "0.2"
+version: "0.3"
 ---
 
 # Set up an EvalLens project
@@ -26,7 +26,14 @@ Add the project name, program information and dates. These details appear on the
 
 ### Set criteria and weights
 
-Review the default rubric and change the weights before scoring begins. The default pitch weights are `0.15`, `0.15`, `0.20`, `0.15`, `0.20` and `0.15` for P1 through P6.
+Review the default rubric and change the weights before scoring begins. The default pitch weights are:
+
+- **P1 Problem** — `0.15`
+- **P2 Solution** — `0.15`
+- **P3 Market** — `0.20`
+- **P4 Business model / GTM** — `0.15`
+- **P5 Team** — `0.20`
+- **P6 Feasibility** — `0.15`
 
 The [criteria and weights reference](./criteria-and-weights.md) explains the anchors and the lock.
 
@@ -60,6 +67,10 @@ Weights freeze when scoring starts. A published submission page may already be s
 
 ## Next steps
 
-- [Collect submissions](./collect-submissions.md) — Fill the batch.
-- [Brief your jury](./brief-your-jury.md) — Prepare the reviewers.
-- [Run an evaluation](./run-an-evaluation.md) — Launch the pipeline.
+<!-- widget:cards plain cols=2 arrow=hover -->
+
+- [Collect submissions](./collect-submissions.md) — Fill the batch. {inbox}
+- [Brief your jury](./brief-your-jury.md) — Prepare the reviewers. {users}
+- [Run an evaluation](./run-an-evaluation.md) — Launch the pipeline. {play}
+
+<!-- /widget -->
