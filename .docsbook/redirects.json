@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "redirects": [
+    { "from": "panel/judges", "to": "scoring/judges" },
+    { "from": "panel/dimensions", "to": "scoring/dimensions" }
+  ]
+}

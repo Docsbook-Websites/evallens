@@ -64,5 +64,5 @@ The test above is reproducible on your own material: run a clean version and an 
 ## Next steps
 
 - [Security and privacy](./security-and-privacy.md) — access control and where decks live.
-- [The six judges](../panel/judges.md) — why context isolation is also a bias control.
+- [The six judges](../scoring/judges.md) — why context isolation is also a bias control.
 - [For applicants](../guides/for-applicants.md) — the same mechanism, explained to submitting teams.

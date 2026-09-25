@@ -56,6 +56,6 @@ Ask the program, not EvalLens: the organizer owns the record.
 
 ## Next steps
 
-- [Dimensions P1–P6](../panel/dimensions.md) — the six questions your deck is scored on, with anchors.
+- [Dimensions P1–P6](../scoring/dimensions.md) — the six questions your deck is scored on, with anchors.
 - [Criteria and weights](./criteria-and-weights.md) — the default weighting, which your program may have edited.
 - [What EvalLens does not do](../trust/boundaries.md) — the limits, stated plainly.

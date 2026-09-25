@@ -26,7 +26,7 @@ The related failure is a scale that collapses. In an AIBS grant-review case stud
 
 In the product each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus red flags, with the top band reserved for what is *demonstrated* rather than asserted. The two columns above are the working core: if judges can tell a 3 from a 7 the same way, most of the disagreement problem is already gone.
 
-Red flags per dimension, and the full anchor set: [Dimensions P1–P6](../panel/dimensions.md).
+Red flags per dimension, and the full anchor set: [Dimensions P1–P6](../scoring/dimensions.md).
 
 ## Editing the weights
 

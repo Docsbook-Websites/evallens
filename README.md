@@ -11,7 +11,7 @@ EvalLens helps a review team process a large field consistently. You collect sub
 
 **The AI Total Score is advisory. The leaderboard uses Jury Scores set by people.**
 
-Use the links below to choose the task you need.
+Use the links below to choose the task you need. Each section in the sidebar opens on an overview: [Guides](./guides/README.md), [Scoring method](./scoring/README.md), [Trust and safety](./trust/README.md) and [Use cases](./use-cases/README.md).
 
 <!-- widget:cards plain cols=2 -->
 
@@ -31,8 +31,8 @@ Use the links below to choose the task you need.
 ## Understand the method
 
 - [Core concepts](./concepts.md) — Projects, entries, scores and pipeline terms {compass}
-- [The six judges](./panel/judges.md) — Judge lenses and routing weights {scan-eye}
-- [Dimensions P1–P6](./panel/dimensions.md) — Questions and scoring anchors {list-checks}
+- [The six judges](./scoring/judges.md) — Judge lenses and routing weights {scan-eye}
+- [Dimensions P1–P6](./scoring/dimensions.md) — Questions and scoring anchors {list-checks}
 - [How the score is built](./scoring/how-the-score-is-built.md) — Aggregation and weighting {calculator}
 - [Disagreement and spread](./scoring/disagreement-and-spread.md) — What disagreement flags require review {git-compare}
 - [Reproducibility](./scoring/reproducibility.md) — What is deterministic and what is measured {repeat}
@@ -44,6 +44,14 @@ Use the links below to choose the task you need.
 - [Security and privacy](./trust/security-and-privacy.md) — Access and report handling {lock}
 - [Pricing](./pricing.md) — Packages, submission counting and validity {credit-card}
 - [FAQ](./faq.md) — Operational questions {circle-help}
+
+## Find your program
+
+- [Hackathons](./use-cases/hackathons.md) — Execution-weighted judging {code}
+- [Pitch competitions](./use-cases/pitch-competitions.md) — The written round pre-read {presentation}
+- [Accelerators](./use-cases/accelerators.md) — Cohort intake at volume {sprout}
+- [Grants and prizes](./use-cases/grants-and-prizes.md) — A locked rubric and an appeal file {hand-coins}
+- [VC open calls](./use-cases/vc-open-calls.md) — Every deck read against your dimensions {briefcase}
 
 <!-- /widget -->
 

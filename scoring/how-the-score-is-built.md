@@ -13,7 +13,7 @@ For each dimension, the judge scores that cover it are combined using their **ro
 
 The inputs at this stage are: judge score, routing weight, confidence.
 
-Which judge covers which dimension: [the routing matrix](../panel/judges.md).
+Which judge covers which dimension: [the routing matrix](./judges.md).
 
 ## 2 · The confidence adjustment
 

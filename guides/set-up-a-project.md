@@ -41,7 +41,7 @@ The [criteria and weights reference](./criteria-and-weights.md) explains the anc
 
 The mode supplies the panel and routing. Each judge contributes at a defined level: primary, secondary, advisory or not scored.
 
-See [The six judges](../panel/judges.md) for the routing matrix.
+See [The six judges](../scoring/judges.md) for the routing matrix.
 
 ### Choose how teams enter
 

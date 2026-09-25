@@ -56,5 +56,5 @@ A high score with high spread is a prompt for discussion, not an automatic rejec
 ## Next steps
 
 - [Score and shortlist](./score-and-shortlist.md) — turn reports into a human ranking.
-- [Dimensions P1–P6](../panel/dimensions.md) — compare a 3 with a 7.
+- [Dimensions P1–P6](../scoring/dimensions.md) — compare a 3 with a 7.
 - [How the score is built](../scoring/how-the-score-is-built.md) — follow the arithmetic.

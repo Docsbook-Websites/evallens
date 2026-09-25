@@ -73,5 +73,5 @@ In Hackathon mode the panel is five reviewer roles — Innovation, Technical Exe
 ## Next steps
 
 - [Dimensions P1–P6](./dimensions.md) — the six questions and their anchors.
-- [How the score is built](../scoring/how-the-score-is-built.md) — how routing weights turn six reads into one number.
-- [Disagreement and spread](../scoring/disagreement-and-spread.md) — what happens when the lenses do not agree.
+- [How the score is built](./how-the-score-is-built.md) — how routing weights turn six reads into one number.
+- [Disagreement and spread](./disagreement-and-spread.md) — what happens when the lenses do not agree.
