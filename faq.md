@@ -1,6 +1,8 @@
 ---
 title: "EvalLens FAQ: what organizers, judges and applicants ask"
 description: "Does the AI pick winners, do we change intake, can we use our own criteria, will submissions train a model, can a team appeal, how do we validate it before it counts."
+status: generated
+version: "0.1"
 ---
 
 # FAQ

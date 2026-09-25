@@ -1,6 +1,8 @@
 ---
 title: "Running a grant or prize round with EvalLens"
 description: "Structured first read for funders: where AI policy allows it and where it stops at administration, the appeal file, rubric locked before the call opens, and the record a board asks for."
+status: generated
+version: "0.1"
 ---
 
 # Grants and prizes
