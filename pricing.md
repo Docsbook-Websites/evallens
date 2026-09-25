@@ -2,7 +2,7 @@
 title: "EvalLens pricing: packages of evaluated submissions, not seats"
 description: "Micro, Pitch Competition and Cohort packages with list prices, what counts as a submission, the 180-day validity window, top-ups, and what custom programs cover."
 status: generated
-version: "0.2"
+version: "0.3"
 ---
 
 # Pricing
@@ -10,6 +10,8 @@ version: "0.2"
 EvalLens is priced per event, not per seat. A plan is a **package of evaluated submissions with a validity window**: no monthly seat fee, no tokens, no usage meter.
 
 ## Packages and list prices
+
+List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.evallens.io/pricing).
 
 <!-- widget:pricing -->
 
@@ -64,8 +66,6 @@ A full cohort selection or a multi-project season.
 [Book a call](https://calendly.com/evallens/30min)
 
 <!-- /widget -->
-
-List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.evallens.io/pricing).
 
 <!-- widget:callout type=info -->
 
