@@ -2,7 +2,7 @@
 title: "Read an EvalLens report"
 description: "Use the Project Summary, AI Score Report, evidence links, completeness signals and live questions to prepare a human review."
 status: generated
-version: "0.2"
+version: "0.3"
 ---
 
 # Read an EvalLens report
@@ -46,7 +46,7 @@ The report checks ten sections: Problem, Solution, Market, Business Model, Tract
 
 <!-- widget:callout type=warning -->
 
-`missing` means the deck did not cover a section. It does not mean a claim is false: EvalLens is not an external fact-check. See [What EvalLens does not do](../trust/boundaries.md).
+**`missing` is not "false".** It means the deck did not cover a section; EvalLens is not an external fact-check. See [What EvalLens does not do](../trust/boundaries.md).
 
 <!-- /widget -->
 
