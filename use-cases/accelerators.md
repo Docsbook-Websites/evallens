@@ -26,7 +26,7 @@ A cohort intake is a volume problem with a reputation attached: hundreds of appl
 
 Founders keep applying through F6S, Typeform, YouNoodle or your own form; the batch is ingested — structured answers, decks, video links. Batch export (CSV plus files) works today; platform connectors are scoped during setup. Or use a branded application page instead. Nothing changes for founders.
 
-### The full read, every application, every page
+### Full read of every application, every page
 
 Form answers and decks are read in full with **coverage logged**, so you can verify what was read. Application #1 and #1,400 get the same rules on the same day quality.
 
@@ -34,7 +34,7 @@ Form answers and decks are read in full with **coverage logged**, so you can ver
 
 Independent AI reads — team, market, feasibility, traction — that cannot anchor on each other: each scores without seeing the others' numbers. Evidence comes before the score, and incomplete evidence moves scores down, never up. Where reads split by more than a band, the case escalates to your team as an open question instead of being averaged.
 
-### Your committee decides
+### Committee decides from evidence-linked reports
 
 Your mentors, partners and screeners keep scoring and arguing exactly as they do — starting from evidence-linked reports instead of raw applications. Confirmations and overrides are logged; the shortlist is built from human decisions. Selection Day time goes to the borderline cases.
 
@@ -58,7 +58,7 @@ Test it against decisions you already made; your last cohort is ground truth you
 
 Evidence-linked reports and a ranked board, on your own rubric.
 
-### The call: side by side
+### Comparison call: side by side
 
 Your committee's actual decisions against the panel's: where it agreed, where it diverged, and why, with page references.
 

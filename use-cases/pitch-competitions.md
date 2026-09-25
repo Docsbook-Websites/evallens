@@ -28,7 +28,7 @@ Criteria, weights and tracks are configured per competition. Publish a methodolo
 
 A link or QR, open or invite-only, with a window and live statuses. Completeness is checked automatically, so staff chase exceptions rather than the pile. Existing intake keeps working if you are not replacing it this season. See [Collect submissions](../guides/collect-submissions.md).
 
-### The panel reads every entry
+### Panel reads every entry
 
 Six independent reads score the whole pool on your rubric. One panel for the whole pool means no judge-assignment lottery in the written round: entry #1 and entry #300 are read under identical rules.
 

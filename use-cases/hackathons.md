@@ -39,7 +39,7 @@ Execution and technical depth are protected precisely so that **a polished story
 
 <!-- widget:stepper -->
 
-### Your rubric and tracks, locked
+### Rubric and tracks, locked
 
 Criteria, weights and tracks configured per event, plus a methodology line you can publish in the rules. You get a rulebook judges and sponsors can read before the doors open.
 
@@ -47,15 +47,15 @@ Criteria, weights and tracks configured per event, plus a methodology line you c
 
 A public link or QR with a deadline and live statuses, or a manual batch you upload yourself. Completeness is checked automatically, so staff chase exceptions rather than the pile.
 
-### The panel does the first read
+### Panel does the first read
 
 Every submission scored on execution, technical depth, problem impact, innovation, UX clarity and delivery readiness — the whole field pre-read in hours.
 
-### Every judge walks in with a briefing
+### Judges walk in with a briefing
 
 Per team: scores with the evidence behind them, quotes tagged to the slide they came from, what to verify at the table, and three questions worth the four minutes. Table visits test the build instead of the pitch.
 
-### The expo runs exactly as designed
+### Expo runs exactly as designed
 
 Same tables, same judges, same closing ceremony. Judges score as usual, and where reviewers disagreed the report says so, so deliberation starts at the real argument.
 

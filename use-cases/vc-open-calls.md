@@ -34,11 +34,11 @@ Conviction was never the part that needed automating. Reading was.
 
 Open call, scout batch, fellowship or demo day: your investment dimensions and thesis-fit criteria become the shared rubric, locked before the window opens. Your Typeform or Airtable intake stays; the batch is ingested.
 
-### Every deck read in full as it lands
+### Full read of every deck as it lands
 
 Every page, coverage logged, reports ready as submissions arrive. Signal engines cannot see a pre-seed founder with no web footprint; a full read can. Deck #1 and deck #400 meet the same standard.
 
-### A brief per deck
+### Brief per deck
 
 Red flags, the three questions you would ask the founder, and a page-referenced quote behind every finding. Where reviewer roles disagree, the gap goes to your team as an open question rather than being averaged away. Screening calls stop being first reads.
 

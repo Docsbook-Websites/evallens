@@ -78,7 +78,7 @@ What supports the score, what lowers it, and what the deck leaves unproven. Miss
 
 "This falls in the 7-to-8 band because…" The decision is the band; the number lives inside it.
 
-### Then the score
+### Score inside the band
 
 A number inside that band. On a boundary with material evidence missing, take the lower band, so incomplete decks stay comparable instead of drifting up.
 

@@ -61,7 +61,7 @@ Three years later, someone asks why an application scored 4.2. Today the answer 
 
 <!-- widget:stepper -->
 
-### Your rubric, locked before the call opens
+### Rubric locked before the call opens
 
 Criteria, anchor descriptions, weights and eligibility rules configured in one working session, then applied identically to every application that will ever arrive. Procedural fairness by construction — and a documented methodology you can publish.
 
@@ -69,7 +69,7 @@ Criteria, anchor descriptions, weights and eligibility rules configured in one w
 
 Submittable, SurveyMonkey Apply, Fluxx, SmartSimple, OpenWater or your own forms. Applicants change nothing.
 
-### The administrative screen runs itself
+### Administrative screen runs itself
 
 Completeness and eligibility checked against your rules, gaps flagged info / warning / critical. Staff handles exceptions, not the pile.
 
@@ -81,11 +81,11 @@ Not people: independent AI reviewer roles, each reading the full proposal throug
 
 Every proposal arrives pre-read with comparable scores, laid-out evidence and ranked open questions. Judges read briefs rather than the full stack of PDFs, so expertise goes to judgment on the borderline.
 
-### The committee decides
+### Committee decides
 
 Finalists and awards are built from your panel's scores; the AI reads stay advisory. The selection memo is generated from the live review record rather than reconstructed for the board.
 
-### The record survives the round
+### Record survives the round
 
 Independent reads where reviewers never see each other's scores, disagreement surfaced to the panel rather than averaged away, and bias made inspectable through score distributions by geography and organization size on request.
 
