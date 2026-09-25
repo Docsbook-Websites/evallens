@@ -7,7 +7,7 @@ version: "0.2"
 
 # Score and shortlist in the Review Board
 
-The Review Board turns reports into a human ranking. It keeps the batch, evidence, statuses and scores in one view.
+The Review Board turns reports into a human ranking, with the batch, evidence, statuses and scores in one view.
 
 ## Read the board
 
@@ -18,13 +18,13 @@ The Review Board turns reports into a human ranking. It keeps the batch, evidenc
 | `scored` | A Jury Score has been submitted |
 | `blocked` | Something prevents evaluation or scoring |
 
-The board also shows the AI Total Score and key findings. The AI score is read-only and does not determine rank.
+The board also shows the AI Total Score and key findings. The AI score is read-only and does not set rank.
 
 <!-- widget:stepper -->
 
 ### Open the report
 
-Review the summary, evidence and findings across the criteria. Start with conflicts and weakly supported high scores.
+Review the summary, evidence and findings. Start with conflicts and weakly supported high scores.
 
 ### Ask and record
 
@@ -36,20 +36,24 @@ Score each criterion from `0.0` to `10.0`. This is separate from the AI Criterio
 
 ### Generate the leaderboard
 
-After the human scores are submitted, generate the ranking. The Final Score applies project weights to Jury Scores.
+Generate the ranking once human scores are in. The Final Score applies project weights to Jury Scores.
 
 <!-- /widget -->
 
 ## Compare before deciding
 
-Compare entries against the same criteria and inspect individual dimensions, not only the total. A lower AI score can still fit your criteria better; the human score is where that judgment belongs.
+Compare entries criterion by criterion, not only on the total. A lower AI score can still fit your criteria better; the human score is where that judgement belongs.
 
 ## Keep the decision trail
 
-The round retains the AI Total Score as context, Jury Scores as the decision input, findings and slide references, and the disagreements your team discussed.
+The round keeps the AI Total Score as context, Jury Scores as the decision input, findings with slide references, and the disagreements your team discussed.
 
 ## Next steps
 
-- [Disagreement and spread](../scoring/disagreement-and-spread.md) — Understand conflict flags.
-- [Brief your jury](./brief-your-jury.md) — Prepare reviewers before scoring.
-- [What EvalLens does not do](../trust/boundaries.md) — State the decision boundary.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Disagreement and spread](../scoring/disagreement-and-spread.md) — Conflict flags {git-compare}
+- [Brief your jury](./brief-your-jury.md) — Prepare reviewers before scoring {users}
+- [What EvalLens does not do](../trust/boundaries.md) — The decision boundary {shield-alert}
+
+<!-- /widget -->

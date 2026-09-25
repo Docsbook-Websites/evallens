@@ -7,9 +7,75 @@ version: "0.2"
 
 # Pricing
 
-EvalLens is priced per event, not per seat. A plan is a **package of evaluated submissions with a validity window** — no monthly per-seat fee, no tokens, no usage meter.
+EvalLens is priced per event, not per seat. A plan is a **package of evaluated submissions with a validity window**: no monthly seat fee, no tokens, no usage meter.
 
 ## Packages and list prices
+
+<!-- widget:pricing -->
+
+## Micro {feather}
+
+**$200** / package
+
+A small, one-off pitch session.
+
+15 submissions · 1 project · 180 days
+
+- Six AI judges (P1–P6)
+- Leaderboard and evidence-linked feedback
+- Self-upload page and CSV export
+- ~~PDF export~~
+- ~~Remove EvalLens branding~~
+
+[Book a call](https://calendly.com/evallens/30min)
+
+## Pitch Competition {presentation}
+
+**$500** / package
+
+One full event, end to end.
+
+40 submissions · 1 project · 180 days
+
+- Everything in Micro {circle-plus}
+- PDF export
+- Remove EvalLens branding
+- Async setup support
+- Top-up: +25 submissions for $300
+
+[Book a call](https://calendly.com/evallens/30min)
+
+## Cohort {users}
+
+**Recommended**
+
+**$1,900** / package
+
+A full cohort selection or a multi-project season.
+
+150 submissions · up to 5 projects · 180 days
+
+- Everything in Pitch Competition {circle-plus}
+- Custom criteria and weights
+- Custom AI judges (add-on)
+- 30-minute setup call
+- Top-up: +25 submissions for $300
+
+[Book a call](https://calendly.com/evallens/30min)
+
+<!-- /widget -->
+
+List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.evallens.io/pricing).
+
+<!-- widget:callout type=info -->
+
+Founding-customer pricing has been offered against these list prices, locked for 12 months from purchase. Ask on the call whether a current offer applies; list price is the number that does not move.
+
+<!-- /widget -->
+
+### Full comparison
+
+<!-- widget:pricing -->
 
 | | Micro | Pitch Competition | Cohort |
 |---|---|---|---|
@@ -30,46 +96,35 @@ EvalLens is priced per event, not per seat. A plan is a **package of evaluated s
 | Custom AI judges | — | — | add-on |
 | Setup support | — | Async | 30-min call |
 
-List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.evallens.io/pricing).
-
-**Best for:** Micro — a small, one-off pitch session. Pitch Competition — one full event end to end. Cohort — a full cohort selection or a multi-project season.
-
-> Founding-customer pricing has been offered against these list prices, with the discounted rate locked for 12 months from purchase. Ask on the call whether a current offer applies to your program — promotional windows move, and list price is the number that does not.
+<!-- /widget -->
 
 ## Funds and accelerators
 
-VC open calls, accelerator cohorts and recurring annual programs are priced per volume. Custom volume, custom judge panels, white-label, SSO, SLA and BYO-LLM sit here, covering the Open Call, Annual and Enterprise shapes. These are sized to your pipeline on a call rather than listed.
+VC open calls, accelerator cohorts and recurring annual programs are priced per volume, covering the Open Call, Annual and Enterprise shapes. They include custom volume, custom judge panels, white-label, SSO, SLA and BYO-LLM, sized to your pipeline on a call.
 
 ## Submissions: what counts for billing
 
 One submitted pitch deck or application that receives **one successfully generated AI evaluation report**.
 
-What does not count:
-
-- **A deck that cannot be processed.** If we cannot read it, it is not an evaluated submission.
-- **Disagreeing with the output.** That is not a failed evaluation either.
-
-What does count: **a resubmission after a report.** A new report is a new evaluation.
+- **Does not count:** a deck that cannot be processed.
+- **Does not count:** disagreeing with the output.
+- **Counts:** a resubmission after a report. A new report is a new evaluation.
 
 ## Per-event pricing: five properties
 
-**No meter.** A package of submissions with a validity window — no seats, no tokens, no usage surprises at the end of a season.
-
-**180 days to use it.** Every package stays valid for 180 days, so a postponed cohort does not burn your budget. Annual and Funds volumes run for the contract term.
-
-**Judges are not seats.** Invite as many reviewers as the event needs. Nobody is counted, licensed, or locked out mid-review — which matters because judge count is usually a sponsor perk and a program KPI, not a cost line to optimise.
-
-**Price locked for 12 months.** Where founding pricing applies, it holds for a year from purchase; list prices apply afterwards.
-
-**No in-house admin needed.** Setup is one working session, not a staff specialist. Your rubric goes in, the batch runs.
+- **No meter** — a package of submissions with a validity window; no seats, no tokens, no end-of-season surprises.
+- **180 days to use it** — a postponed cohort does not burn your budget. Annual and Funds volumes run for the contract term.
+- **Judges are not seats** — invite as many reviewers as the event needs; nobody is counted or locked out mid-review.
+- **Price locked for 12 months** — where founding pricing applies, it holds for a year from purchase.
+- **No in-house admin needed** — setup is one working session. Your rubric goes in, the batch runs.
 
 ## Running out mid-season
 
-Add a top-up of +25 submissions for $300, or move up a plan. Because packages are per event rather than per month, the decision is about volume, not about renewal timing.
+Add a top-up of +25 submissions for $300, or move up a plan. Packages are per event, so the decision is about volume, not renewal timing.
 
 ## Access
 
-There is no public sign-up. EvalLens is available through a limited partner program: book a call, describe your evaluation workflow, and access is set up for your team.
+There is no public sign-up. EvalLens runs a limited partner program: book a call, describe your evaluation workflow, and access is set up for your team.
 
 <!-- widget:cta -->
 
@@ -85,6 +140,10 @@ Two numbers make the conversation short: how many submissions land in one window
 
 ## Next steps
 
-- [Getting started](./getting-started.md) — what happens after access is set up.
-- [FAQ](./faq.md) — the operational questions that come after the pricing ones.
-- [Criteria and weights](./guides/criteria-and-weights.md) — what "custom criteria" changes in a run.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Getting started](./getting-started.md) — What happens after access is set up {rocket}
+- [FAQ](./faq.md) — The operational questions after pricing {circle-help}
+- [Criteria and weights](./guides/criteria-and-weights.md) — What custom criteria change {sliders-horizontal}
+
+<!-- /widget -->

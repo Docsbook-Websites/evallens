@@ -7,7 +7,7 @@ version: "0.1"
 
 # Dimensions P1–P6
 
-Six questions, one rubric. The dimensions are fixed so that every startup in a batch is compared against the same core questions rather than against whichever criteria a particular reviewer happens to care about.
+Six questions, one rubric. The dimensions are fixed, so every startup in a batch is compared on the same core questions rather than on whatever a particular reviewer cares about.
 
 ## Six dimensions and their default weights
 
@@ -22,7 +22,7 @@ Six questions, one rubric. The dimensions are fixed so that every startup in a b
 
 ## Anchors for each score band
 
-Each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus its red flags. The top band is reserved for what is **demonstrated**, not merely asserted. Below are the two bands juries argue about most.
+Each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus red flags. The top band is reserved for what is **demonstrated**, not asserted. Below: the two bands juries argue about most.
 
 ### P1 · Problem significance
 
@@ -62,12 +62,27 @@ Each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10
 
 ## Scoring procedure: evidence first, number last
 
-The procedure is fixed, and it runs in this order — evidence first, number last.
+Every judge runs the same four steps, in this order.
 
-1. **Cite the evidence.** Slide-grounded facts only. Every claim points at a specific slide. No slide, no claim.
-2. **Weigh it both ways.** What supports the score, what lowers it, and what the deck leaves unclear or unproven. Missing evidence is recorded as missing — never invented, never silently forgiven.
-3. **Name the band.** "This falls in the 7-to-8 band because…" The decision is the band; the number just lives inside it.
-4. **Then the score.** Inside that band. On a boundary with material evidence missing, take the lower band — incomplete decks stay comparable instead of drifting up on benefit of the doubt.
+<!-- widget:stepper -->
+
+### Cite the evidence
+
+Slide-grounded facts only: every claim points at a specific slide. No slide, no claim.
+
+### Weigh it both ways
+
+What supports the score, what lowers it, and what the deck leaves unproven. Missing evidence is recorded as missing — never invented, never silently forgiven.
+
+### Name the band
+
+"This falls in the 7-to-8 band because…" The decision is the band; the number lives inside it.
+
+### Then the score
+
+A number inside that band. On a boundary with material evidence missing, take the lower band, so incomplete decks stay comparable instead of drifting up.
+
+<!-- /widget -->
 
 ## Judge routing per dimension
 
@@ -75,6 +90,10 @@ Not every lens influences every dimension. The routing matrix — primary, secon
 
 ## Next steps
 
-- [Criteria and weights](../guides/criteria-and-weights.md) — editing the weights, and the lock.
-- [Read a report](../guides/read-a-report.md) — where the anchors show up in a finished report.
-- [For applicants](../guides/for-applicants.md) — the same six questions, written for the team submitting.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Criteria and weights](../guides/criteria-and-weights.md) — Editing the weights, and the lock {sliders-horizontal}
+- [Read a report](../guides/read-a-report.md) — Where the anchors show up in a report {file-text}
+- [For applicants](../guides/for-applicants.md) — The same questions, for the submitting team {send}
+
+<!-- /widget -->

@@ -7,7 +7,7 @@ version: "0.1"
 
 # AI judges and the routing matrix
 
-Evaluation runs through six independent AI judges, each with its own lens. They work in isolated contexts and never see one another's scores. Where they disagree, the report says so instead of averaging it away.
+Six independent AI judges read every pitch deck, each through its own lens. They work in isolated contexts and never see one another's scores; where they disagree, the report says so instead of averaging it away.
 
 ## Six judge lenses
 
@@ -33,7 +33,7 @@ A lens contributes to a dimension at one of four levels: **primary** (1.00) driv
 | J-P5 Team Readiness | — | — | advisory | advisory | primary | secondary |
 | J-P6 Feasibility | advisory | secondary | secondary | secondary | secondary | primary |
 
-Two things are worth reading off this table.
+Two things to read off this table:
 
 **Pitch Quality is advisory everywhere.** It is visible in the report and it never drives a dimension. This is the structural answer to "does a polished deck win here?" — presentation quality matters, but it cannot outrank weak evidence on problem, market, team or feasibility.
 
@@ -70,10 +70,18 @@ It is thesis-first by design: a polished deck should not score high if the probl
 
 ## Hackathon panel: five reviewer roles
 
-In Hackathon mode the panel is five reviewer roles — Innovation, Technical Execution, Business Value, Pitch Quality and Feasibility — reading every submission across an execution-weighted rubric. See [Hackathons](../use-cases/hackathons.md).
+<!-- widget:callout type=note -->
+
+**Running a hackathon?** Hackathon mode uses five reviewer roles — Innovation, Technical Execution, Business Value, Pitch Quality and Feasibility — on an execution-weighted rubric. See [Hackathons](../use-cases/hackathons.md).
+
+<!-- /widget -->
 
 ## Next steps
 
-- [Dimensions P1–P6](./dimensions.md) — the six questions and their anchors.
-- [Score calculation](./how-the-score-is-built.md) — how routing weights turn six reads into one number.
-- [Disagreement and spread](./disagreement-and-spread.md) — what happens when the lenses do not agree.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Dimensions P1–P6](./dimensions.md) — The six questions and their anchors {list-checks}
+- [Score calculation](./how-the-score-is-built.md) — How routing weights make one number {sigma}
+- [Disagreement and spread](./disagreement-and-spread.md) — When the lenses do not agree {git-compare}
+
+<!-- /widget -->

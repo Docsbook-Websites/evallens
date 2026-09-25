@@ -5,7 +5,7 @@ description: "Where decks live, who can read them, how access is enforced below 
 
 # Security and privacy
 
-Pitch decks carry strategy, financials, founder details and — once a round runs — selection outcomes. None of that should move freely or leak through an open link. This page is what happens to a deck after it is uploaded.
+Pitch decks carry strategy, financials, founder details and, once a round runs, selection outcomes. This page is what happens to a deck after upload.
 
 ## Organizer-owned workspace
 
@@ -25,11 +25,11 @@ Access is not a property of the interface. Four guardrails decide what a request
 | Server-only keys | Service-role and AI gateway keys stay on the server. Admin operations run only after an explicit admin check |
 | Public gate | The `/e/<slug>` page opens only after publication; before that, 404 |
 
-The distinction matters when someone asks whether a link can be shared sideways: hiding a button is not access control, and none of the four above is a UI behaviour.
+Hiding a button is not access control, and none of the four is a UI behaviour — which answers "can a link be shared sideways?"
 
 ## Report delivery
 
-Reports move through the organizer's workspace rather than through accidental public access. A report reaches someone when the organizer chooses to share it. Participant-facing report sharing is post-MVP — today, delivery to teams is something the organizer does deliberately.
+Reports move through the organizer's workspace, never through accidental public access. A report reaches someone when the organizer shares it; participant-facing sharing is post-MVP.
 
 ## Training and ownership
 
@@ -46,16 +46,20 @@ Reports move through the organizer's workspace rather than through accidental pu
 
 ## AI sub-processors: the question to ask every vendor
 
-A 2026 DataGrail review found that **63.6% of vendors advertising AI never name a third-party AI sub-processor in their legal documents** (reported by VentureBeat). That is the gap your security questionnaire exists to close, and it is answerable before a sales call rather than after one.
+A 2026 DataGrail review found that **63.6% of vendors advertising AI never name a third-party AI sub-processor in their legal documents** (reported by VentureBeat). Your security questionnaire exists to close that gap.
 
 EvalLens publishes its sub-processors with purpose and processing region for each, alongside the DPA and this page. Bring the questionnaire to the first conversation, not the last.
 
 ## Human decision boundary
 
-AI prepares the analysis. The organizer reviews it, sets the final scores and decides how the report is used — the AI Total Score is a reference and does not rank participants by itself. That is a privacy property as well as a methodology one: the decision that affects a team's funding, selection and reputation is made by a person who can be asked about it.
+AI prepares the analysis; the organizer reviews it, sets the final scores and decides how the report is used. That is a privacy property as well as a method: the decision affecting a team's funding, selection and reputation is made by a person who can be asked about it.
 
 ## Next steps
 
-- [Prompt-injection safety](./prompt-injection-safety.md) — what happens when a deck tries to influence the evaluation.
-- [What EvalLens does not do](./boundaries.md) — the limits to state before a committee asks.
-- [Collect submissions](../guides/collect-submissions.md) — the access settings on the submission page.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Prompt-injection safety](./prompt-injection-safety.md) — When a deck tries to influence the evaluation {shield-check}
+- [What EvalLens does not do](./boundaries.md) — The limits to state before a committee asks {shield-alert}
+- [Collect submissions](../guides/collect-submissions.md) — Access settings on the submission page {inbox}
+
+<!-- /widget -->

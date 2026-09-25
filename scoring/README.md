@@ -9,20 +9,24 @@ version: "0.1"
 
 An independent AI panel reads every submission against six fixed dimensions. A deterministic calculation combines those reads into an advisory AI Total Score.
 
+<!-- widget:callout type=info -->
+
 **The leaderboard uses Jury Scores set by people.** The AI Total Score sits beside them for reference.
 
-<!-- widget:cards plain cols=2 -->
+<!-- /widget -->
+
+<!-- widget:cards feature cols=2 arrow=hover -->
 
 ## Inputs: judges and dimensions
 
-- [AI judges](./judges.md) — Judge lenses, context isolation and the routing matrix {scan-eye}
-- [Dimensions P1–P6](./dimensions.md) — The six questions, their anchors and red flags {list-checks}
+- [AI judges](./judges.md) — Judge lenses, context isolation and the routing matrix. {scan-eye} {color:green}
+- [Dimensions P1–P6](./dimensions.md) — The six questions, their anchors and red flags. {list-checks} {color:purple}
 
 ## Calculation: score, spread and reproducibility
 
-- [Score calculation](./how-the-score-is-built.md) — Routing weights, confidence and aggregation {sigma}
-- [Disagreement and spread](./disagreement-and-spread.md) — Consensus, split and conflict, and what each requires {git-compare}
-- [Reproducibility](./reproducibility.md) — What is deterministic and what is benchmarked {repeat}
+- [Score calculation](./how-the-score-is-built.md) — Routing weights, confidence and aggregation. {sigma} {color:blue}
+- [Disagreement and spread](./disagreement-and-spread.md) — Consensus, split and conflict, and what each requires. {git-compare} {color:amber}
+- [Reproducibility](./reproducibility.md) — What is deterministic and what is benchmarked. {repeat} {color:teal}
 
 <!-- /widget -->
 

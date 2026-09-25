@@ -7,7 +7,7 @@ version: "0.3"
 
 # Set up an EvalLens project
 
-A project represents one selection round. Its mode determines the panel; the wizard then configures the round.
+A project is one selection round. Its mode sets the panel; the wizard configures the rest.
 
 ## Choose the mode first
 
@@ -16,7 +16,7 @@ A project represents one selection round. Its mode determines the panel; the wiz
 | Pitch Competition | Six judges | Six dimensions, P1–P6 |
 | Hackathon | Five reviewer roles | Execution-weighted rubric |
 
-Choose the mode that matches the decision. Do not use a pitch rubric for a round where technical execution is the main question.
+Match the mode to the decision: a round where technical execution is the main question needs Hackathon, not the pitch rubric.
 
 <!-- widget:stepper -->
 
@@ -63,11 +63,15 @@ Check the rubric, submission requirements, deadline and reviewer process. Confir
 
 ## What locks later
 
-Weights freeze when scoring starts. A published submission page may already be shared, so preview it before publishing.
+<!-- widget:callout type=warning -->
+
+**Weights freeze when scoring starts.** A published submission page may already be shared, so preview it before you publish.
+
+<!-- /widget -->
 
 ## Next steps
 
-<!-- widget:cards plain cols=2 arrow=hover -->
+<!-- widget:cards plain cols=3 arrow=hover -->
 
 - [Collect submissions](./collect-submissions.md) — Fill the batch. {inbox}
 - [Brief your jury](./brief-your-jury.md) — Prepare the reviewers. {users}

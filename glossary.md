@@ -11,7 +11,7 @@ version: "0.1"
 
 **AI Criterion Score.** The AI baseline for one dimension, produced by combining the judge reads that cover it with their routing weights. Read-only.
 
-**AI judge panel.** The set of independent AI reviewers that read every submission. Six lenses in Pitch Competition mode, five in Hackathon mode. They never see one another's scores.
+**AI judge panel.** The set of independent AI reviewers that read every submission. Six lenses in Pitch Competition mode, five in Hackathon mode. They never see one another's scores. See [AI judges](./scoring/judges.md).
 
 **AI Total Score.** The advisory 0–10 number across all dimensions, produced by deterministic aggregation. It never ranks the batch.
 
@@ -29,11 +29,11 @@ version: "0.1"
 
 **Deterministic aggregation.** Combining judge outputs into a score with fixed arithmetic and no model call, so the same inputs always produce the same total.
 
-**Dimension.** One of the six fixed questions a deck is scored on (P1–P6).
+**Dimension.** One of the six fixed questions a deck is scored on (P1–P6). See [Dimensions P1–P6](./scoring/dimensions.md).
 
 **Entry.** One team's submission: the deck, the team and project details, an optional note for judges, and a status.
 
-**Entry Hub.** The intake side of EvalLens — manual entry or a public submission page with access rules and a window.
+**Entry Hub.** The intake side of EvalLens — manual entry or a public submission page with access rules and a window. See [Collect submissions](./guides/collect-submissions.md).
 
 **Evidence-grounded scoring.** Requiring a slide reference behind every claim a score relies on. No slide, no claim.
 
@@ -41,7 +41,7 @@ version: "0.1"
 
 **Judge contribution matrix.** The report view showing which judges contributed to each dimension and where strong disagreements were flagged.
 
-**Jury Score.** The human score, set per dimension from 0.0 to 10.0. The only input to the ranking.
+**Jury Score.** The human score, set per dimension from 0.0 to 10.0. The only input to the ranking. See [Score and shortlist](./guides/score-and-shortlist.md).
 
 **Leaderboard.** The ranked view of a batch, built from submitted Jury Scores and project weights.
 
@@ -55,15 +55,19 @@ version: "0.1"
 
 **Routing weight.** How much a judge's read counts toward a dimension — primary 1.00, secondary 0.50, advisory 0.25, or not scored.
 
-**Score spread.** Highest judge score minus lowest on a dimension. Under 1.5 consensus, 1.5–2.99 split, 3.0 or more conflict. It routes attention and never changes a score.
+**Score spread.** Highest judge score minus lowest on a dimension. Under 1.5 consensus, 1.5–2.99 split, 3.0 or more conflict. It routes attention and never changes a score. See [Disagreement and spread](./scoring/disagreement-and-spread.md).
 
-**Security signal.** A flag raised when an instruction aimed at the model is detected inside a deck. The instruction is excluded from scoring evidence and shown to the organizer.
+**Security signal.** A flag raised when an instruction aimed at the model is detected inside a deck. The instruction is excluded from scoring evidence and shown to the organizer. See [Prompt-injection safety](./trust/prompt-injection-safety.md).
 
 **SourceRef.** The link from a finding back to the slide it came from — number, title and note.
 
-**Submission (billing).** One deck that received one successfully generated evaluation report. Unprocessable decks do not count.
+**Submission (billing).** One deck that received one successfully generated evaluation report. Unprocessable decks do not count. See [Pricing](./pricing.md).
 
 ## Next steps
 
-- [Core concepts](./concepts.md) — the same terms in the order they appear in a run.
-- [Score calculation](./scoring/how-the-score-is-built.md) — where each of the score terms enters the arithmetic.
+<!-- widget:cards plain cols=2 arrow=hover -->
+
+- [Core concepts](./concepts.md) — The same terms in the order they appear in a run {compass}
+- [Score calculation](./scoring/how-the-score-is-built.md) — Where each score term enters the arithmetic {sigma}
+
+<!-- /widget -->

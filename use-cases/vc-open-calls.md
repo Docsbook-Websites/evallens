@@ -28,21 +28,41 @@ Conviction was never the part that needed automating. Reading was.
 
 ## Five steps to run a VC open call
 
-**1 · Frame the program.** Open call, scout batch, fellowship or demo day: your investment dimensions and thesis-fit criteria become the shared rubric, locked before the window opens. Your Typeform or Airtable intake stays; the batch is ingested.
+<!-- widget:stepper -->
 
-**2 · Every deck read in full as it lands.** Every page, coverage logged, reports ready as submissions arrive. Signal engines cannot see a pre-seed founder with no web footprint; a full read can. Deck #1 and deck #400 meet the same standard.
+### Frame the program
 
-**3 · A brief per deck.** Red flags, the three questions you would ask the founder, and a page-referenced quote behind every finding. Where reviewer roles disagree, the gap goes to your team as an open question rather than being averaged away. Screening calls stop being first reads.
+Open call, scout batch, fellowship or demo day: your investment dimensions and thesis-fit criteria become the shared rubric, locked before the window opens. Your Typeform or Airtable intake stays; the batch is ingested.
 
-**4 · One ranked view, partners decide.** The batch becomes one comparable board. Analysts review the borderline; partners confirm or override, and their calls build the shortlist. The evidence pastes straight into your own memo.
+### Every deck read in full as it lands
 
-**5 · Pass with feedback, under your control.** Evidence-based pass feedback for every founder, reviewed and editable by your team before anything is sent, tone configured to your house style, opt-out per call.
+Every page, coverage logged, reports ready as submissions arrive. Signal engines cannot see a pre-seed founder with no web footprint; a full read can. Deck #1 and deck #400 meet the same standard.
+
+### A brief per deck
+
+Red flags, the three questions you would ask the founder, and a page-referenced quote behind every finding. Where reviewer roles disagree, the gap goes to your team as an open question rather than being averaged away. Screening calls stop being first reads.
+
+### One ranked view, partners decide
+
+The batch becomes one comparable board. Analysts review the borderline; partners confirm or override, and their calls build the shortlist. The evidence pastes straight into your own memo.
+
+### Pass with feedback, under your control
+
+Evidence-based pass feedback for every founder, reviewed and editable by your team before anything is sent, tone configured to your house style, opt-out per call.
+
+<!-- /widget -->
 
 ## Rank provenance: what a rank traces to
 
-A worked example on Market: score 7.6, advisory, on your dimensions — finding *bottom-up sizing grounded in a served niche; top-down claim unsupported*, quote *"…112 paying teams in vertical X, 9% m/m…" · page 8*, red flag *churn not disclosed anywhere in the deck*, and a drafted founder question: *"What's logo churn for the last two quarters?"*
+A worked example on Market, scored on your dimensions:
 
-Quotes are verified against the deck before a finding stands. No quote, no finding.
+- **Score** — 7.6, advisory.
+- **Finding** — *bottom-up sizing grounded in a served niche; top-down claim unsupported.*
+- **Quote** — *"…112 paying teams in vertical X, 9% m/m…"* · page 8.
+- **Red flag** — *churn not disclosed anywhere in the deck.*
+- **Founder question** — *"What's logo churn for the last two quarters?"*
+
+Quotes are verified against the deck before a finding stands: no quote, no finding.
 
 ## Founder-facing feedback, with a safety catch
 
@@ -61,10 +81,18 @@ And this is not for the warm pipeline. It is for the programs you run for covera
 
 ## Validating before it counts
 
-Run it in parallel on your next call: your analysts screen as usual, the panel reads the same decks, and you compare agreement and catches before committing anything.
+<!-- widget:callout type=tip -->
+
+**Run it in parallel on your next call.** Your analysts screen as usual, the panel reads the same decks, and you compare agreement and catches before committing anything.
+
+<!-- /widget -->
 
 ## Next steps
 
-- [What EvalLens does not do](../trust/boundaries.md) — the boundary a skeptical GP will test.
-- [Read a report](../guides/read-a-report.md) — the brief, layer by layer.
-- [Grants and prizes](./grants-and-prizes.md) — the same evidence standard where an appeal is likelier.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [What EvalLens does not do](../trust/boundaries.md) — The boundary a skeptical GP will test {shield-alert}
+- [Read a report](../guides/read-a-report.md) — The brief, layer by layer {file-text}
+- [Grants and prizes](./grants-and-prizes.md) — The same standard where appeals are likelier {hand-coins}
+
+<!-- /widget -->

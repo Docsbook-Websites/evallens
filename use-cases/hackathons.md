@@ -37,33 +37,58 @@ Execution and technical depth are protected precisely so that **a polished story
 
 ## Six steps to run a hackathon
 
-**1 · Your rubric and tracks, locked.** Criteria, weights and tracks configured per event, plus a methodology line you can publish in the rules. You get a rulebook judges and sponsors can read before the doors open.
+<!-- widget:stepper -->
 
-**2 · Submissions land on your event page.** A public link or QR with a deadline and live statuses, or a manual batch you upload yourself. Completeness is checked automatically, so staff chase exceptions rather than the pile.
+### Your rubric and tracks, locked
 
-**3 · The panel does the first read.** Every submission scored on execution, technical depth, problem impact, innovation, UX clarity and delivery readiness — the whole field pre-read in hours.
+Criteria, weights and tracks configured per event, plus a methodology line you can publish in the rules. You get a rulebook judges and sponsors can read before the doors open.
 
-**4 · Every judge walks in with a briefing.** Per team: scores with the evidence behind them, quotes tagged to the slide they came from, what to verify at the table, and three questions worth the four minutes. Table visits test the build instead of the pitch.
+### Submissions land on your event page
 
-**5 · The expo runs exactly as designed.** Same tables, same judges, same closing ceremony. Judges score as usual, and where reviewers disagreed the report says so, so deliberation starts at the real argument.
+A public link or QR with a deadline and live statuses, or a manual batch you upload yourself. Completeness is checked automatically, so staff chase exceptions rather than the pile.
 
-**6 · Leaderboard, then feedback for every team.** The ranking is built from human Jury Scores and your criteria weights. Structured feedback is drafted from the evidence and approved by your staff before it goes out.
+### The panel does the first read
+
+Every submission scored on execution, technical depth, problem impact, innovation, UX clarity and delivery readiness — the whole field pre-read in hours.
+
+### Every judge walks in with a briefing
+
+Per team: scores with the evidence behind them, quotes tagged to the slide they came from, what to verify at the table, and three questions worth the four minutes. Table visits test the build instead of the pitch.
+
+### The expo runs exactly as designed
+
+Same tables, same judges, same closing ceremony. Judges score as usual, and where reviewers disagreed the report says so, so deliberation starts at the real argument.
+
+### Leaderboard, then feedback for every team
+
+The ranking is built from human Jury Scores and your criteria weights. Structured feedback is drafted from the evidence and approved by your staff before it goes out.
+
+<!-- /widget -->
 
 ## Inputs it reads today, stated plainly
 
-Today the panel reads the submission you already collect: the deck, the project description and the team's own notes. Nothing changes for participants and no judge loses a role.
+Today the panel reads what you already collect: the deck, the project description and the team's notes. Nothing changes for participants, and no judge loses a role.
 
-**Reading a repository and a running demo end to end is the next build on the roadmap, not a claim made today.** Anyone quoting execution scores in a closing ceremony should know exactly what those scores were computed from.
+<!-- widget:callout type=warning -->
+
+**Repositories and running demos are not read today** — that is the next build on the roadmap. Anyone quoting execution scores at a closing ceremony should know what they were computed from.
+
+<!-- /widget -->
 
 ## Monday Discord thread
 
-A team that shipped a working build lost to a team that demoed well, and the thread is public with the sponsor cc'd. Today the honest answer is a shrug, because four minutes at a table is genuinely not a review.
+A team that shipped a working build lost to a team that demoed well, and the thread is public with the sponsor cc'd. Without a record the honest answer is a shrug.
 
-With a record, the reply is one message: the Execution and Demo score and its weight, the finding — *two of three feature claims are demonstrated; the third is described, not shown* — the quote and slide it came from, the flagged split on Technical Depth, and the organizer's own Jury Score logged next to the AI read.
+With a record, the reply is one message:
+
+- the Execution and Demo score and its weight;
+- the finding — *two of three feature claims are demonstrated; the third is described, not shown* — with its quote and slide;
+- the flagged split on Technical Depth;
+- the organizer's own Jury Score, logged next to the AI read.
 
 ## Disclosure kit
 
-Hackers notice everything and post about all of it. The risk is never the tool; it is defending the tool without a script.
+Hackers notice everything and post about it. The risk is defending the tool without a script.
 
 - **Opening ceremony:** "Every submission gets a full read under identical rules, and humans decide every placement."
 - **Rules page:** a methodology statement — what the panel assists with, what judges decide, how a team can ask about its own record.
@@ -72,14 +97,20 @@ Hackers notice everything and post about all of it. The risk is never the tool; 
 
 ## Tracks and sponsor judges
 
-Tracks, criteria and weights are configured per event, and each track scores against its own rubric. Judge count does not go down — sponsors and alumni keep the floor and arrive briefed. Weights stay editable right up until the run starts, then lock so the field is scored on one standard end to end.
+Each track scores against its own rubric, configured per event. Judge count does not go down: sponsors and alumni keep the floor and arrive briefed. Weights stay editable until the run starts, then lock so the whole field is scored on one standard.
 
 ## Data and team IP
 
-Team submissions are processed only for your event's evaluation and never used to train models — contractual. The event owns the reports, scores and decision log; retention and deletion follow your policy, a DPA is available, and student-data handling is structured to support an institution's obligations. PO and invoice accepted, security questionnaires supported, public sub-processor list, education discount for university programs.
+- **Never trained on** — team submissions are processed only for your event's evaluation. Contractual.
+- **Your record** — the event owns reports, scores and the decision log; retention and deletion follow your policy, and a DPA is available.
+- **Institutions** — student-data handling supports an institution's obligations; PO and invoice, security questionnaires, a public sub-processor list, and an education discount for university programs.
 
 ## Next steps
 
-- [Criteria and weights](../guides/criteria-and-weights.md) — the pitch rubric this one diverges from.
-- [Brief your jury](../guides/brief-your-jury.md) — the load arithmetic and the calibration video.
-- [Disagreement and spread](../scoring/disagreement-and-spread.md) — what a flagged split means at the table.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Criteria and weights](../guides/criteria-and-weights.md) — The pitch rubric this one diverges from {sliders-horizontal}
+- [Brief your jury](../guides/brief-your-jury.md) — Load arithmetic and the calibration video {users}
+- [Disagreement and spread](../scoring/disagreement-and-spread.md) — What a flagged split means at the table {git-compare}
+
+<!-- /widget -->

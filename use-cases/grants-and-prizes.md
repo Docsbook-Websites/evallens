@@ -30,7 +30,11 @@ Two different rules, and they have different answers.
 
 Prize programs, foundation calls and competitions that set their own rules can use the scored first read as well.
 
-**If you are not sure which side your call sits on, that is the first question to settle — before any document moves.**
+<!-- widget:callout type=warning -->
+
+**Not sure which side your call sits on?** Settle that first, before any document moves.
+
+<!-- /widget -->
 
 ## Appeal file
 
@@ -38,25 +42,52 @@ Three years later, someone asks why an application scored 4.2. Today the answer 
 
 **With a record,** staff opens that application in one click: the AI read and the panel score preserved side by side, each finding tied to the quote and page it came from, and the human sign-off attached.
 
-**Worked example.** On Implementation readiness: score 7.8, anchor band 7–8 — finding *three funded pilot sites; two report continuation funding*, quote *"…three pilot deployments; two districts renewed…" · page 14*, evidence strength strong, panel action *confirmed by panel, open question logged for the applicant interview*.
+**Worked example** on Implementation readiness:
 
-**Not yet shipped.** Field-level change history and rubric versioning are on the roadmap, and where that line sits today is stated before purchase rather than after.
+- **Score** — 7.8, anchor band 7–8, evidence strength strong.
+- **Finding** — *three funded pilot sites; two report continuation funding.*
+- **Quote** — *"…three pilot deployments; two districts renewed…"* · page 14.
+- **Panel action** — *confirmed by panel, open question logged for the applicant interview.*
+
+<!-- widget:callout type=note -->
+
+**Not yet shipped:** field-level change history and rubric versioning are on the roadmap. Where that line sits is stated before purchase, not after.
+
+<!-- /widget -->
 
 ## Seven steps to run a grant round
 
-**1 · Your rubric, locked before the call opens.** Criteria, anchor descriptions, weights and eligibility rules configured in one working session, then applied identically to every application that will ever arrive. Procedural fairness by construction — and a documented methodology you can publish.
+<!-- widget:stepper -->
 
-**2 · Applications flow from your existing intake.** Submittable, SurveyMonkey Apply, Fluxx, SmartSimple, OpenWater or your own forms. Applicants change nothing.
+### Your rubric, locked before the call opens
 
-**3 · The administrative screen runs itself.** Completeness and eligibility checked against your rules, gaps flagged info / warning / critical. Staff handles exceptions, not the pile.
+Criteria, anchor descriptions, weights and eligibility rules configured in one working session, then applied identically to every application that will ever arrive. Procedural fairness by construction — and a documented methodology you can publish.
 
-**4 · Independent reviewer roles, named honestly.** Not people: independent AI reviewer roles, each reading the full proposal through its own lens, composed per program including domain-matched technical reads. Each scores blind to the others, evidence before score, and every model's read is logged — so "why is this reviewer qualified" has an answer too. Your human panel's conflict-of-interest and recusal workflow stays exactly where it is.
+### Applications flow from your existing intake
 
-**5 · Panels read briefs, not piles.** Every proposal arrives pre-read with comparable scores, laid-out evidence and ranked open questions. Judges read briefs rather than the full stack of PDFs, so expertise goes to judgment on the borderline.
+Submittable, SurveyMonkey Apply, Fluxx, SmartSimple, OpenWater or your own forms. Applicants change nothing.
 
-**6 · The committee decides.** Finalists and awards are built from your panel's scores; the AI reads stay advisory. The selection memo is generated from the live review record rather than reconstructed for the board.
+### The administrative screen runs itself
 
-**7 · The record survives the round.** Independent reads where reviewers never see each other's scores, disagreement surfaced to the panel rather than averaged away, and bias made inspectable through score distributions by geography and organization size on request.
+Completeness and eligibility checked against your rules, gaps flagged info / warning / critical. Staff handles exceptions, not the pile.
+
+### Independent reviewer roles, named honestly
+
+Not people: independent AI reviewer roles, each reading the full proposal through its own lens, composed per program including domain-matched technical reads. Each scores blind to the others, evidence before score, and every model's read is logged — so "why is this reviewer qualified" has an answer too. Your human panel's conflict-of-interest and recusal workflow stays exactly where it is.
+
+### Panels read briefs, not piles
+
+Every proposal arrives pre-read with comparable scores, laid-out evidence and ranked open questions. Judges read briefs rather than the full stack of PDFs, so expertise goes to judgment on the borderline.
+
+### The committee decides
+
+Finalists and awards are built from your panel's scores; the AI reads stay advisory. The selection memo is generated from the live review record rather than reconstructed for the board.
+
+### The record survives the round
+
+Independent reads where reviewers never see each other's scores, disagreement surfaced to the panel rather than averaged away, and bias made inspectable through score distributions by geography and organization size on request.
+
+<!-- /widget -->
 
 ## Applicant-facing commitments
 
@@ -66,6 +97,10 @@ Three years later, someone asks why an application scored 4.2. Today the answer 
 
 ## Next steps
 
-- [What EvalLens does not do](../trust/boundaries.md) — the boundaries to quote in a policy conversation.
-- [Security and privacy](../trust/security-and-privacy.md) — the perimeter argument, in detail.
-- [Criteria and weights](../guides/criteria-and-weights.md) — anchors, and why they move agreement.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [What EvalLens does not do](../trust/boundaries.md) — Boundaries to quote in a policy conversation {shield-alert}
+- [Security and privacy](../trust/security-and-privacy.md) — The perimeter argument in detail {lock}
+- [Criteria and weights](../guides/criteria-and-weights.md) — Anchors, and why they move agreement {sliders-horizontal}
+
+<!-- /widget -->

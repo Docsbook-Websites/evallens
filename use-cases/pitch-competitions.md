@@ -5,7 +5,7 @@ description: "How a competition round runs end to end: rubric and tracks locked,
 
 # Pitch competitions
 
-The written round is where a competition's fairness claim is usually weakest and hardest to defend. This page is how a round runs when the panel does the first read.
+The written round is where a competition's fairness claim is weakest and hardest to defend. Here is how a round runs when the panel does the first read.
 
 ## Written-round cost today
 
@@ -18,23 +18,39 @@ The written round is where a competition's fairness claim is usually weakest and
 
 ## Six steps to run a pitch competition
 
-**1 · Rubric and tracks, locked.** Criteria, weights and tracks are configured per competition. Publish a methodology statement in the competition rules — where fairness claims legally live — stating what the panel assists with and what the judges decide.
+<!-- widget:stepper -->
 
-**2 · Entries land in one place.** A link or QR, open or invite-only, with a window and live statuses. Completeness is checked automatically, so staff chase exceptions rather than the pile. Existing intake keeps working if you are not replacing it this season. See [Collect submissions](../guides/collect-submissions.md).
+### Rubric and tracks, locked
 
-**3 · The panel reads every entry.** Six independent reads score the whole pool on your rubric. One panel for the whole pool means no judge-assignment lottery in the written round: entry #1 and entry #300 are read under identical rules.
+Criteria, weights and tracks are configured per competition. Publish a methodology statement in the competition rules — where fairness claims legally live — stating what the panel assists with and what the judges decide.
 
-**4 · Screeners confirm with packs, not piles.** Prelim decisions stay human. Remote judges and alumni keep their role, but screening becomes a confirm-and-comment pass over evidence-linked reports instead of a reading weekend — the same touchpoint at a fraction of the ask, which is why the same judges say yes again next year.
+### Entries land in one place
 
-**5 · Live rounds run as designed.** Semis and finals: same stage, same judges. Judges score as usual; the leaderboard is built from human scores times your weights; disagreements surface for deliberation rather than being averaged away.
+A link or QR, open or invite-only, with a window and live statuses. Completeness is checked automatically, so staff chase exceptions rather than the pile. Existing intake keeps working if you are not replacing it this season. See [Collect submissions](../guides/collect-submissions.md).
 
-**6 · Feedback for every team.** Structured feedback drafted from the evidence and reviewed by your staff before it is sent. For a student competition, feedback for 400 teams is a teaching outcome, not just an event.
+### The panel reads every entry
+
+Six independent reads score the whole pool on your rubric. One panel for the whole pool means no judge-assignment lottery in the written round: entry #1 and entry #300 are read under identical rules.
+
+### Screeners confirm with packs, not piles
+
+Prelim decisions stay human. Remote judges and alumni keep their role, but screening becomes a confirm-and-comment pass over evidence-linked reports instead of a reading weekend — the same touchpoint at a fraction of the ask, which is why the same judges say yes again next year.
+
+### Live rounds run as designed
+
+Semis and finals: same stage, same judges. Judges score as usual; the leaderboard is built from human scores times your weights; disagreements surface for deliberation rather than being averaged away.
+
+### Feedback for every team
+
+Structured feedback drafted from the evidence and reviewed by your staff before it is sent. For a student competition, feedback for 400 teams is a teaching outcome, not just an event.
+
+<!-- /widget -->
 
 ## Judge-hour arithmetic
 
-400 entries × 3 reads × 1.5 hours = **1,800 judge-hours** consumed by a written round. Those hours are what moves to semis, finals and mentoring — while every entry still gets every page read.
+400 entries × 3 reads × 1.5 hours = **1,800 judge-hours** in a written round. Those hours move to semis, finals and mentoring, and every entry still gets every page read.
 
-Nothing here reduces judge count. Judge count is a program KPI and a sponsor perk; what changes is the ask. Nobody sponsors an event to do six hours of reading homework — sponsors come to see finalists and be seen.
+Judge count stays: it is a program KPI and a sponsor perk. What changes is the ask — sponsors come to see finalists, not to do six hours of reading.
 
 ## Messaging: what to say, and where
 
@@ -52,14 +68,25 @@ Whether you run open appeals is your policy. The per-entry evidence, scores and 
 
 ## Validating before it counts
 
-Run a shadow pilot: your screeners work one written round as usual while the panel reads the same pool in parallel. Compare coverage, hours, and where the pre-ranking agreed with your screeners — validated against your own judges before it influences anything.
+<!-- widget:callout type=tip -->
+
+**Run a shadow pilot.** Your screeners work one written round as usual while the panel reads the same pool. Compare coverage, hours and where the pre-ranking agreed, before it influences anything.
+
+<!-- /widget -->
 
 ## Institutional requirements
 
-Student submissions are never used to train models — contractual. The institution owns every report, score and decision log; retention and deletion follow your policy, student-data handling is structured to support FERPA obligations, and a DPA is available. PO and invoice are accepted, vendor registration forms and security questionnaires supported, and the sub-processor list is public.
+- **Never trained on** — student submissions are not used to train models. Contractual.
+- **Your record** — the institution owns every report, score and decision log; retention and deletion follow your policy.
+- **Compliance** — student-data handling supports FERPA obligations, and a DPA is available.
+- **Procurement** — PO and invoice, vendor registration forms, security questionnaires, and a public sub-processor list.
 
 ## Next steps
 
-- [Brief your jury](../guides/brief-your-jury.md) — the pack that raises agreement before scoring.
-- [Criteria and weights](../guides/criteria-and-weights.md) — the default rubric and the lock.
-- [Hackathons](./hackathons.md) — the execution-weighted variant of the same round.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Brief your jury](../guides/brief-your-jury.md) — The pack that raises agreement before scoring {users}
+- [Criteria and weights](../guides/criteria-and-weights.md) — The default rubric and the lock {sliders-horizontal}
+- [Hackathons](./hackathons.md) — The execution-weighted variant {code}
+
+<!-- /widget -->

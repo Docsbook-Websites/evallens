@@ -5,13 +5,13 @@ description: "The four boundaries: it is not an external truth check, not invest
 
 # What EvalLens does not do
 
-EvalLens evaluates what is present in a deck, highlights what is missing, and prepares the review. Four things it is not — worth reading before you promise anything to a committee, a sponsor or a student paper.
+EvalLens evaluates what is in a deck, flags what is missing, and prepares the review. Here are the four things it is not; read them before you promise a committee, a sponsor or a student paper anything.
 
 ## Not an external truth check
 
 **What it does instead:** evaluates what the deck presents and flags what is missing. It does not verify claims against the outside world.
 
-A deck that states "14 pilot customers at $190/mo" is scored on the strength and specificity of that evidence as presented. Whether those customers exist is not something a document reader can establish. False, incomplete or unsupported claims still require evidence review and, where it matters, external validation.
+A deck stating "14 pilot customers at $190/mo" is scored on how strong and specific that evidence is as presented. Whether the customers exist is not something a document reader can establish; where it matters, validate externally.
 
 The same boundary applies to completeness: *missing* means the deck did not cover a section, never that a claim in it is untrue.
 
@@ -35,7 +35,7 @@ Prompt-injection safety prevents instructions inside a deck from controlling the
 
 ## Boundary wording to say out loud
 
-Programs that adopt an AI-assisted first read do better when they state the boundary before anyone asks, rather than defending it afterwards. Three lines that hold up:
+State the boundary before anyone asks rather than defending it afterwards. Three lines that hold up:
 
 - **On stage:** "Every entry received a full read under identical rules, and humans made every ranking decision."
 - **In the rules document:** a methodology statement — what the AI panel assists with, what the judges decide, and how a team can ask about its own record.
@@ -45,10 +45,14 @@ Judge conflict-of-interest and recusal handling stays your policy. What the reco
 
 ## Comparison with the unassisted first read
 
-The awkward question is not "was AI involved". It is what the alternative actually looked like: at a large competition, entry 300 drawn by a tired volunteer at 11pm; at a hackathon expo, the average judge seeing a single-digit percentage of the field in four-minute table visits. A first read under identical rules is a claim that a volunteer process cannot make — and it is compatible with humans deciding every placement.
+The real question is not "was AI involved" but what the alternative looked like: entry 300 drawn by a tired volunteer at 11pm, or a hackathon judge seeing a single-digit share of the field in four-minute table visits. A first read under identical rules is a claim a volunteer process cannot make, and humans still decide every placement.
 
 ## Next steps
 
-- [Reproducibility](../scoring/reproducibility.md) — what has been benchmarked and what has not.
-- [Security and privacy](./security-and-privacy.md) — what happens to a deck after upload.
-- [Score and shortlist](../guides/score-and-shortlist.md) — where the human decision is actually made.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Reproducibility](../scoring/reproducibility.md) — What has been benchmarked, and what has not {repeat}
+- [Security and privacy](./security-and-privacy.md) — What happens to a deck after upload {lock}
+- [Score and shortlist](../guides/score-and-shortlist.md) — Where the human decision is made {gavel}
+
+<!-- /widget -->

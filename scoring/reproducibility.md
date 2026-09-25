@@ -7,17 +7,17 @@ version: "0.1"
 
 # Reproducibility
 
-"Same deck, same score" is two separate claims in EvalLens, and they are held to two different standards. Conflating them is how a reliability claim quietly becomes untrue.
+"Same deck, same score" is two claims in EvalLens, held to two standards. Merging them is how a reliability claim quietly becomes untrue.
 
 ## Layer 1 · Aggregation is deterministic
 
-Once judge outputs exist, the score is calculated by a deterministic aggregation function — **not another model call**. The same judge outputs and weights produce the same AI Total Score every time, with only rounding-level tolerance.
+Once judge outputs exist, a deterministic function calculates the score — **not another model call**. The same outputs and weights give the same AI Total Score every time, within rounding.
 
-This is a property of the code path, not a statistical result. It is why "how did this number come about" always has an answer, and why re-ranking the same evidence under different weights does not require re-running anything.
+This is a property of the code path, not a statistic. It is why "how did this number come about" always has an answer, and why re-ranking under new weights needs no re-run.
 
 ## Layer 2 · The judge layer is measured
 
-The AI judge layer runs on a language model, so repeated runs are not always identical. Rather than assume stability, that repeatability is benchmarked and the results published.
+The judge layer runs on a language model, so repeated runs can differ. Its repeatability is benchmarked and published rather than assumed.
 
 | Measure | Result |
 |---|---|
@@ -26,7 +26,11 @@ The AI judge layer runs on a language model, so repeated runs are not always ide
 | Reruns that reproduced the same dimension profile | **~86%** (12 of 14) |
 | Aggregation consistency check (same inputs → same total) | **<1%** deviation |
 
-**Benchmark scope.** Internal repeatability benchmark: J-P5 Team Readiness, one deck, 24 runs, June 2026. A multi-deck regression across the full panel is in progress. The scope is stated because a single-deck, single-lens result is evidence about that lens on that deck — not a claim about every deck type.
+<!-- widget:callout type=info -->
+
+**Benchmark scope.** Internal repeatability benchmark: J-P5 Team Readiness, one deck, 24 runs, June 2026. A multi-deck regression across the full panel is in progress. A single-deck, single-lens result is evidence about that lens on that deck, not about every deck type.
+
+<!-- /widget -->
 
 ## Targets for the controlled set
 
@@ -40,11 +44,13 @@ Published as targets, which is a different thing from a result:
 
 ## Method origin: 1,000+ internal runs
 
-EvalLens comes out of 1,000+ internal evaluation runs, starting with an Amazon Nova hackathon prototype and the earlier AI Jury system. The current method — fixed dimensions, independent lenses, deterministic aggregation — has 400+ runs behind it. Adding more judges was tried and did not solve quality: scores shifted, roles overlapped, and long reports produced noise instead of clarity. What changed the outcome was structure, not headcount.
+EvalLens comes out of 1,000+ internal evaluation runs, starting with an Amazon Nova hackathon prototype and the earlier AI Jury system. The current method — fixed dimensions, independent lenses, deterministic aggregation — has 400+ runs behind it.
+
+Adding more judges was tried and did not help: scores shifted, roles overlapped, and long reports added noise. Structure changed the outcome, not headcount.
 
 ## Limits: reproducibility is not accuracy
 
-Reproducibility is not accuracy. EvalLens does not promise to predict startup success, and absolute calibration across every deck type is still being proven. What the numbers above support is narrower and more useful: the same deck read twice lands in the same place often enough that a score is a signal rather than a coin flip, and the arithmetic on top of it does not move at all.
+Reproducibility is not accuracy. EvalLens does not predict startup success, and calibration across every deck type is still being proven. The numbers above support something narrower: the same deck read twice lands in the same place often enough that a score is a signal, not a coin flip, and the arithmetic on top does not move at all.
 
 That is also why the final call stays human. See [What EvalLens does not do](../trust/boundaries.md).
 
@@ -59,6 +65,10 @@ A deck can be perfectly reproducible and heavily contested. That combination is 
 
 ## Next steps
 
-- [Score calculation](./how-the-score-is-built.md) — the deterministic path in detail.
-- [What EvalLens does not do](../trust/boundaries.md) — the four boundaries, stated plainly.
-- [Prompt-injection safety](../trust/prompt-injection-safety.md) — the other published test, with its own scope statement.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Score calculation](./how-the-score-is-built.md) — The deterministic path in detail {sigma}
+- [What EvalLens does not do](../trust/boundaries.md) — The four boundaries, stated plainly {shield-alert}
+- [Prompt-injection safety](../trust/prompt-injection-safety.md) — The other published test and its scope {shield-check}
+
+<!-- /widget -->

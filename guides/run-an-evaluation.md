@@ -7,41 +7,41 @@ version: "0.2"
 
 # Run an EvalLens evaluation
 
-A run processes the ready batch in parallel. Before launching, confirm that the rubric and intake are ready.
+A run processes the ready batch in parallel, through five stages. Check the rubric and intake first.
 
 ## Pre-flight checks
 
-- At least one entry is marked **ready**.
+- At least one entry is marked `ready`.
 - Criteria and weights are final; they lock when scoring starts.
-- Submissions are closed, or later arrivals are intentionally reserved for another run.
+- Submissions are closed, or later arrivals are deliberately left for another run.
 
 <!-- widget:stepper -->
 
 ### Decoder
 
-The system converts a PDF, PPTX or Google Slides input into a structured, slide-level representation.
+Converts a PDF, PPTX or Google Slides input into a structured, slide-level representation.
 
 ### AI Judges
 
-Six independent judges score a pitch deck against the criteria in isolated contexts. Each judge records evidence, what supports the score, what lowers it, and the relevant band.
+Six independent [AI judges](../scoring/judges.md) score a pitch deck against the criteria in isolated contexts. Each records its evidence, what supports and lowers the score, and the band.
 
 ### Summarizer
 
-Deterministic score calculations run first. A separate function writes the narrative and questions for the live review.
+Deterministic score calculations run first. A separate function writes the narrative and the questions for the live review.
 
 ### Scoring
 
-The configured weights produce the advisory AI Total Score. The human Jury Score is a separate value and is the value used for the Final Score and leaderboard.
+The configured weights produce the advisory AI Total Score. The human Jury Score is a separate value, and it is the one the Final Score and leaderboard use.
 
 ### Report
 
-Each participant receives a structured report with a summary, dimension breakdown, evidence, judge contributions, completeness signals and ranked questions.
+Each participant gets a structured report: summary, dimension breakdown, evidence, judge contributions, completeness signals and ranked questions.
 
 <!-- /widget -->
 
 ## Repeatable and variable parts of a run
 
-Aggregation is deterministic once the judge outputs and weights exist. Repeating the judge layer can produce different reads because it uses a language model; [Reproducibility](../scoring/reproducibility.md) describes what is measured.
+Aggregation is deterministic once judge outputs and weights exist. The judge layer uses a language model, so a repeat can read differently; [Reproducibility](../scoring/reproducibility.md) gives the measured numbers.
 
 ## First checks after a run
 
@@ -52,10 +52,20 @@ Aggregation is deterministic once the judge outputs and weights exist. Repeating
 
 ## Re-rank without re-running
 
-Weights apply at the leaderboard. You can explore a different weighting after a run without re-running the evidence collection. Do not change weights after scoring starts for the live round.
+Weights apply at the leaderboard, so after a run you can explore another weighting without collecting the evidence again.
+
+<!-- widget:callout type=warning -->
+
+Do not change weights after scoring starts in a live round: a field ranked under two weightings is not one ranking.
+
+<!-- /widget -->
 
 ## Next steps
 
-- [Read a report](./read-a-report.md) — Interpret the output.
-- [Score and shortlist](./score-and-shortlist.md) — Set human scores.
-- [Disagreement and spread](../scoring/disagreement-and-spread.md) — Understand the review flags.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Read a report](./read-a-report.md) — Interpret the output {file-text}
+- [Score and shortlist](./score-and-shortlist.md) — Set human scores {gavel}
+- [Disagreement and spread](../scoring/disagreement-and-spread.md) — The review flags {git-compare}
+
+<!-- /widget -->

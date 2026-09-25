@@ -7,54 +7,102 @@ version: "0.1"
 
 # Criteria and weights
 
-The rubric moves score agreement more than the composition of your jury does. This page is the default EvalLens pitch rubric, what each weight is for, and the one rule worth keeping if you change everything else.
+The rubric moves score agreement more than the make-up of your jury does. This page is the default EvalLens pitch rubric, what each weight is for, and the one rule to keep if you change everything else.
 
 ## Rubric over judges: why anchors move agreement
 
-A study of Olympic breaking at the Paris 2024 games found expert judge agreement between 0.21 and 0.45 on loosely defined criteria, while artistic gymnastics — which enumerates every observable element — reaches 0.94 to 0.98. Same caliber of judge; the rubric is the difference. A pitch jury scoring "Team" and "Market" on a bare 1-to-10 column sits on the breaking side of that gap.
+- **Loose criteria:** expert judges of Olympic breaking at Paris 2024 agreed at 0.21 to 0.45.
+- **Enumerated criteria:** artistic gymnastics, which lists every observable element, reaches 0.94 to 0.98.
 
-The related failure is a scale that collapses. In an AIBS grant-review case study, reviewers used only the 1.3-to-4 part of a 1-to-5 scale: without anchors, a ten-point scale becomes a three-point one.
+Same calibre of judge; the rubric is the difference. A pitch jury scoring "Team" on a bare 1-to-10 column sits on the breaking side of that gap.
+
+Without anchors the scale also collapses: in an AIBS grant-review case study, reviewers used only 1.3 to 4 of a 1-to-5 scale.
 
 ## Default pitch rubric
 
-| Dimension | Weight | A 3 looks like | A 7 looks like |
-|---|---|---|---|
-| **P1 Problem significance** | 0.15 | No real problem articulated, or the pain is vague and unsubstantiated | A specific, frequent, costly pain with a clearly identified user and a credible reason it matters now |
-| **P2 Solution differentiation** | 0.15 | Solution unclear, disconnected from the problem, or a thin wrapper over an existing tool | A coherent solution with a clear mechanism and a genuine, defensible difference from alternatives |
-| **P3 Market attractiveness** | 0.20 | No market reasoning, no segment defined, or an implausible market claim | A well-sized, reachable market with a clear segment, a credible entry motion and a believable path to first customers |
-| **P4 Business model / GTM** | 0.15 | No monetization logic, or pricing that ignores the buyer | Clear monetization, sensible pricing for the buyer, and a credible go-to-market motion with a beachhead |
-| **P5 Team / founder fit** | 0.20 | No meaningful information about the team, or an obvious mismatch with what the venture requires | A capable, reasonably complete team with relevant experience and good fit to the problem |
-| **P6 Feasibility / readiness** | 0.15 | The plan is implausible, internally inconsistent, or absent | A credible, well-sequenced plan with resources that broadly match the ambition and risks acknowledged |
+Market and team carry `0.20` each; the other four dimensions `0.15`. Pick a dimension to see what a 3 and a 7 look like.
 
-In the product each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus red flags, with the top band reserved for what is *demonstrated* rather than asserted. The two columns above are the working core: if judges can tell a 3 from a 7 the same way, most of the disagreement problem is already gone.
+<!-- widget:tabs -->
 
-Red flags per dimension, and the full anchor set: [Dimensions P1–P6](../scoring/dimensions.md).
+### P1 Problem {target}
+
+**P1 Problem significance** · weight `0.15`
+
+- **A 3 looks like** — no real problem articulated, or the pain is vague and unsubstantiated.
+- **A 7 looks like** — a specific, frequent, costly pain with a clearly identified user and a credible reason it matters now.
+
+### P2 Solution {lightbulb}
+
+**P2 Solution differentiation** · weight `0.15`
+
+- **A 3 looks like** — solution unclear, disconnected from the problem, or a thin wrapper over an existing tool.
+- **A 7 looks like** — a coherent solution with a clear mechanism and a genuine, defensible difference from alternatives.
+
+### P3 Market {chart-pie}
+
+**P3 Market attractiveness** · weight `0.20`
+
+- **A 3 looks like** — no market reasoning, no segment defined, or an implausible market claim.
+- **A 7 looks like** — a well-sized, reachable market with a clear segment, a credible entry motion and a believable path to first customers.
+
+### P4 GTM {store}
+
+**P4 Business model / GTM** · weight `0.15`
+
+- **A 3 looks like** — no monetization logic, or pricing that ignores the buyer.
+- **A 7 looks like** — clear monetization, sensible pricing for the buyer, and a credible go-to-market motion with a beachhead.
+
+### P5 Team {users}
+
+**P5 Team / founder fit** · weight `0.20`
+
+- **A 3 looks like** — no meaningful information about the team, or an obvious mismatch with what the venture requires.
+- **A 7 looks like** — a capable, reasonably complete team with relevant experience and good fit to the problem.
+
+### P6 Feasibility {route}
+
+**P6 Feasibility / readiness** · weight `0.15`
+
+- **A 3 looks like** — the plan is implausible, internally inconsistent, or absent.
+- **A 7 looks like** — a credible, well-sequenced plan with resources that broadly match the ambition and risks acknowledged.
+
+<!-- /widget -->
+
+In the product each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus red flags, and the top band is reserved for what is *demonstrated*, not asserted. The 3 and the 7 are the working core: if judges tell them apart the same way, most of the disagreement is gone.
+
+All four bands and the red flags: [Dimensions P1–P6](../scoring/dimensions.md).
 
 ## Editing the weights
 
-Weights are yours. They are meant to be edited before scoring starts, and the defaults simply reflect what early-stage juries most often argue about — market and team carrying 0.20 each.
+Weights are yours to edit before scoring starts. The defaults reflect what early-stage juries argue about most.
 
-Two adaptations worth knowing:
-
-- **Demo day.** A cohort that just finished a program has had equal coaching on story, so many organizers shift weight toward Team / founder fit (P5) and Feasibility (P6) and away from pitch polish.
-- **Hackathon.** The rubric changes shape rather than weight: Execution and Demo carries 0.30 and Technical Depth 0.20, both weight-protected, with Problem Impact and Innovation at 0.15 and UX Clarity and Delivery Readiness at 0.10. See [Hackathons](../use-cases/hackathons.md).
+- **Demo day** — a cohort that finished a program had equal coaching on story, so many organizers shift weight toward Team / founder fit (P5) and Feasibility (P6), away from pitch polish.
+- **Hackathon** — the rubric changes shape: Execution and Demo `0.30` and Technical Depth `0.20`, both weight-protected; Problem Impact and Innovation `0.15`; UX Clarity and Delivery Readiness `0.10`. See [Hackathons](../use-cases/hackathons.md).
 
 ## Weight lock once scoring begins
 
-**Once scoring begins, weights freeze.** This is the one rule to keep even if you rewrite every anchor. A field ranked partly under one weighting and partly under another is not a ranking, and the lock is what lets you say every submission was ranked on the same standard.
+<!-- widget:callout type=warning -->
 
-Because weights apply at the leaderboard rather than inside each judge's reading, the same evidence can be re-ranked under different weights without re-running the batch — which is the supported way to explore "what if market mattered more" *after* a run, instead of editing mid-round.
+**Once scoring begins, weights freeze.** A field ranked partly under one weighting and partly under another is not a ranking; the lock is what lets you say every submission was ranked on the same standard.
+
+<!-- /widget -->
+
+Weights apply at the leaderboard, not inside each judge's reading. To explore "what if market mattered more", re-rank the same evidence after the run instead of editing mid-round.
 
 ## Multiple tracks
 
-Tracks, criteria and weights are configured per project, and each track scores against its own rubric. The leaderboard respects the weighting of the track it belongs to.
+Tracks, criteria and weights are configured per project. Each track scores against its own rubric, and the leaderboard uses that track's weighting.
 
 ## Using this rubric without EvalLens
 
-The dimensions, weights, anchors and the spread rule work on paper, in a spreadsheet, or in any scoring tool — they are published to be copied. EvalLens becomes useful when the field is bigger than your judges' hours: the panel runs the first read on this same rubric and your judges decide with the evidence in front of them.
+The dimensions, weights, anchors and the spread rule work on paper or in any scoring tool; they are published to be copied. EvalLens helps when the field outgrows your judges' hours: the panel runs the first read on this rubric and your judges decide with the evidence in front of them.
 
 ## Next steps
 
-- [Brief your jury](./brief-your-jury.md) — putting the anchors on the scorecard rather than in an appendix.
-- [Disagreement and spread](../scoring/disagreement-and-spread.md) — the threshold that turns disagreement into an action.
-- [Score calculation](../scoring/how-the-score-is-built.md) — where weights enter the arithmetic.
+<!-- widget:cards plain cols=3 arrow=hover -->
+
+- [Brief your jury](./brief-your-jury.md) — Put the anchors on the scorecard {users}
+- [Disagreement and spread](../scoring/disagreement-and-spread.md) — When disagreement becomes an action {git-compare}
+- [Score calculation](../scoring/how-the-score-is-built.md) — Where weights enter the arithmetic {sigma}
+
+<!-- /widget -->
