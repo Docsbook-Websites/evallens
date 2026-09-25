@@ -2,7 +2,7 @@
 title: "EvalLens documentation"
 description: "Practical reference for setting up a selection project, collecting submissions, running an AI-assisted evaluation, and making the final human ranking."
 status: generated
-version: "0.4"
+version: "0.5"
 ---
 
 # EvalLens documentation
@@ -28,12 +28,12 @@ Use the links below to choose the task you need. Each section in the sidebar ope
 - [Score and shortlist](./guides/score-and-shortlist.md) — Set Jury Scores and generate the human ranking {gavel}
 - [Criteria and weights](./guides/criteria-and-weights.md) — Edit the rubric before scoring starts {sliders}
 
-## Understand the method
+## Read the scoring method
 
 - [Core concepts](./concepts.md) — Projects, entries, scores and pipeline terms {compass}
-- [The six judges](./scoring/judges.md) — Judge lenses and routing weights {scan-eye}
+- [AI judges](./scoring/judges.md) — Judge lenses and routing weights {scan-eye}
 - [Dimensions P1–P6](./scoring/dimensions.md) — Questions and scoring anchors {list-checks}
-- [How the score is built](./scoring/how-the-score-is-built.md) — Aggregation and weighting {calculator}
+- [Score calculation](./scoring/how-the-score-is-built.md) — Aggregation and weighting {calculator}
 - [Disagreement and spread](./scoring/disagreement-and-spread.md) — What disagreement flags require review {git-compare}
 - [Reproducibility](./scoring/reproducibility.md) — What is deterministic and what is measured {repeat}
 
@@ -55,7 +55,7 @@ Use the links below to choose the task you need. Each section in the sidebar ope
 
 <!-- /widget -->
 
-## The decision rule
+## Decision rule: people rank, the panel prepares
 
 EvalLens prepares a comparable first read. It does not verify claims, give investment advice or choose a winner. Review the evidence, set Jury Scores, and keep the human decision trail.
 
