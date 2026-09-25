@@ -64,4 +64,4 @@ description: "Every EvalLens term in one list: advisory score, AI judge panel, b
 ## Next steps
 
 - [Core concepts](./concepts.md) — the same terms in the order they appear in a run.
-- [How the score is built](./scoring/how-the-score-is-built.md) — where each of the score terms enters the arithmetic.
+- [Score calculation](./scoring/how-the-score-is-built.md) — where each of the score terms enters the arithmetic.

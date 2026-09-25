@@ -69,7 +69,7 @@ The procedure is fixed, and it runs in this order — evidence first, number las
 
 ## Judge routing per dimension
 
-Not every lens influences every dimension. The routing matrix — primary, secondary, advisory, not scored — is on [The six judges](./judges.md).
+Not every lens influences every dimension. The routing matrix — primary, secondary, advisory, not scored — is on [AI judges](./judges.md).
 
 ## Next steps
 

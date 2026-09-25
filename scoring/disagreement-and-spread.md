@@ -46,6 +46,6 @@ The rule works on paper. Per dimension, take the highest score minus the lowest 
 
 ## Next steps
 
-- [How the score is built](./how-the-score-is-built.md) — where spread sits in the pipeline (beside the arithmetic, not inside it).
+- [Score calculation](./how-the-score-is-built.md) — where spread sits in the pipeline (beside the arithmetic, not inside it).
 - [Read a report](../guides/read-a-report.md) — where the flag appears and what the judge contribution matrix adds.
 - [Reproducibility](./reproducibility.md) — run-to-run variance, which is a different question from judge-to-judge spread.

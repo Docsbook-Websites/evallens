@@ -15,12 +15,12 @@ An independent AI panel reads every submission against six fixed dimensions. A d
 
 ## Inputs: judges and dimensions
 
-- [The six judges](./judges.md) — Judge lenses, context isolation and the routing matrix {scan-eye}
+- [AI judges](./judges.md) — Judge lenses, context isolation and the routing matrix {scan-eye}
 - [Dimensions P1–P6](./dimensions.md) — The six questions, their anchors and red flags {list-checks}
 
 ## Calculation: score, spread and reproducibility
 
-- [How the score is built](./how-the-score-is-built.md) — Routing weights, confidence and aggregation {sigma}
+- [Score calculation](./how-the-score-is-built.md) — Routing weights, confidence and aggregation {sigma}
 - [Disagreement and spread](./disagreement-and-spread.md) — Consensus, split and conflict, and what each requires {git-compare}
 - [Reproducibility](./reproducibility.md) — What is deterministic and what is benchmarked {repeat}
 

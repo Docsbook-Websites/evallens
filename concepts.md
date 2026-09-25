@@ -68,4 +68,4 @@ Every deck passes five stages:
 
 - [Run an evaluation](./guides/run-an-evaluation.md) — Follow the stages in practice.
 - [Read a report](./guides/read-a-report.md) — Find each object in the output.
-- [How the score is built](./scoring/how-the-score-is-built.md) — Review the arithmetic.
+- [Score calculation](./scoring/how-the-score-is-built.md) — Review the arithmetic.

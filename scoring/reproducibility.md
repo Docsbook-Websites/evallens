@@ -57,6 +57,6 @@ A deck can be perfectly reproducible and heavily contested. That combination is 
 
 ## Next steps
 
-- [How the score is built](./how-the-score-is-built.md) — the deterministic path in detail.
+- [Score calculation](./how-the-score-is-built.md) — the deterministic path in detail.
 - [What EvalLens does not do](../trust/boundaries.md) — the four boundaries, stated plainly.
 - [Prompt-injection safety](../trust/prompt-injection-safety.md) — the other published test, with its own scope statement.

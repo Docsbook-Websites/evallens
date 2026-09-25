@@ -55,4 +55,4 @@ The dimensions, weights, anchors and the spread rule work on paper, in a spreads
 
 - [Brief your jury](./brief-your-jury.md) — putting the anchors on the scorecard rather than in an appendix.
 - [Disagreement and spread](../scoring/disagreement-and-spread.md) — the threshold that turns disagreement into an action.
-- [How the score is built](../scoring/how-the-score-is-built.md) — where weights enter the arithmetic.
+- [Score calculation](../scoring/how-the-score-is-built.md) — where weights enter the arithmetic.
