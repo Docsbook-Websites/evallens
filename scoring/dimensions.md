@@ -1,6 +1,8 @@
 ---
 title: "EvalLens dimensions P1–P6: the six questions and their anchors"
 description: "The six fixed dimensions every deck is scored on, what a 3 looks like against a 7 on each, the red flags per dimension, and the four-band anchor structure."
+status: generated
+version: "0.1"
 ---
 
 # Dimensions P1–P6

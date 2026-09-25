@@ -1,6 +1,8 @@
 ---
 title: "Disagreement and spread in EvalLens: consensus, split, conflict"
 description: "Spread is the highest judge score minus the lowest on a dimension. Under 1.5 is consensus, 1.5–2.99 a split, 3.0 or more a conflict routed to human review. It never changes the score."
+status: generated
+version: "0.1"
 ---
 
 # Disagreement and spread

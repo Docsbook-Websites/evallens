@@ -1,6 +1,8 @@
 ---
 title: "EvalLens AI judges: six lenses and the routing matrix"
 description: "What each of the six AI judge lenses reads, why they never see one another's scores, and how much each one influences each dimension — primary, secondary, advisory or not scored."
+status: generated
+version: "0.1"
 ---
 
 # AI judges and the routing matrix

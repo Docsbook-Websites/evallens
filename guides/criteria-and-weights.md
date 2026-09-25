@@ -1,6 +1,8 @@
 ---
 title: "EvalLens criteria and weights: the default rubric and how to edit it"
 description: "The six weighted dimensions of the EvalLens pitch panel with anchors, why weights lock when scoring starts, and how to adapt them for demo days and hackathons."
+status: generated
+version: "0.1"
 ---
 
 # Criteria and weights

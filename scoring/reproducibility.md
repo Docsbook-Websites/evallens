@@ -1,6 +1,8 @@
 ---
 title: "EvalLens reproducibility: what is deterministic and what is measured"
 description: "Aggregation is deterministic; the judge layer is benchmarked. The published repeatability numbers, the benchmark scope, the targets for the controlled set, and what is still in progress."
+status: generated
+version: "0.1"
 ---
 
 # Reproducibility

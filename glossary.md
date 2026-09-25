@@ -1,6 +1,8 @@
 ---
 title: "EvalLens glossary"
 description: "Every EvalLens term in one list: advisory score, AI judge panel, batch, confidence, deck triage, deterministic aggregation, entry, Final Score, Jury Score, routing weight, spread."
+status: generated
+version: "0.1"
 ---
 
 # Glossary

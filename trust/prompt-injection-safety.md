@@ -1,6 +1,8 @@
 ---
 title: "Prompt-injection safety: a deck is evidence, never an instruction"
 description: "How EvalLens detects hidden and model-directed instructions in a submission, excludes them from scoring evidence, flags them to the organizer — and the published test where no judge score changed."
+status: generated
+version: "0.1"
 ---
 
 # Prompt-injection safety
