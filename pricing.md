@@ -1,13 +1,15 @@
 ---
 title: "EvalLens pricing: packages of evaluated submissions, not seats"
 description: "Micro, Pitch Competition and Cohort packages with list prices, what counts as a submission, the 180-day validity window, top-ups, and what custom programs cover."
+status: generated
+version: "0.2"
 ---
 
 # Pricing
 
 EvalLens is priced per event, not per seat. A plan is a **package of evaluated submissions with a validity window** — no monthly per-seat fee, no tokens, no usage meter.
 
-## The packages
+## Packages and list prices
 
 | | Micro | Pitch Competition | Cohort |
 |---|---|---|---|
@@ -28,6 +30,8 @@ EvalLens is priced per event, not per seat. A plan is a **package of evaluated s
 | Custom AI judges | — | — | add-on |
 | Setup support | — | Async | 30-min call |
 
+List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.evallens.io/pricing).
+
 **Best for:** Micro — a small, one-off pitch session. Pitch Competition — one full event end to end. Cohort — a full cohort selection or a multi-project season.
 
 > Founding-customer pricing has been offered against these list prices, with the discounted rate locked for 12 months from purchase. Ask on the call whether a current offer applies to your program — promotional windows move, and list price is the number that does not.
@@ -36,7 +40,7 @@ EvalLens is priced per event, not per seat. A plan is a **package of evaluated s
 
 VC open calls, accelerator cohorts and recurring annual programs are priced per volume. Custom volume, custom judge panels, white-label, SSO, SLA and BYO-LLM sit here, covering the Open Call, Annual and Enterprise shapes. These are sized to your pipeline on a call rather than listed.
 
-## What counts as a submission
+## Submissions: what counts for billing
 
 One submitted pitch deck or application that receives **one successfully generated AI evaluation report**.
 
@@ -47,7 +51,7 @@ What does not count:
 
 What does count: **a resubmission after a report.** A new report is a new evaluation.
 
-## The five properties that follow from per-event pricing
+## Per-event pricing: five properties
 
 **No meter.** A package of submissions with a validity window — no seats, no tokens, no usage surprises at the end of a season.
 
