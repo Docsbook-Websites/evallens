@@ -1,7 +1,13 @@
+---
+status: generated
+version: "0.2"
+---
+
 {
   "version": 1,
   "redirects": [
     { "from": "panel/judges", "to": "scoring/judges" },
-    { "from": "panel/dimensions", "to": "scoring/dimensions" }
+    { "from": "panel/dimensions", "to": "scoring/dimensions" },
+    { "from": "panel", "to": "scoring/dimensions" }
   ]
 }
