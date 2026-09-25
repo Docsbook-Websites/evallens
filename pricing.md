@@ -69,7 +69,7 @@ List prices as of 25 September 2026, matching [evallens.io/pricing](https://www.
 
 <!-- widget:callout type=info -->
 
-Founding-customer pricing has been offered against these list prices, locked for 12 months from purchase. Ask on the call whether a current offer applies; list price is the number that does not move.
+**Founding-customer pricing** has been offered against these list prices, locked for 12 months from purchase. Ask on the call whether a current offer applies; list price is the number that does not move.
 
 <!-- /widget -->
 

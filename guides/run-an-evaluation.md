@@ -56,7 +56,7 @@ Weights apply at the leaderboard, so after a run you can explore another weighti
 
 <!-- widget:callout type=warning -->
 
-Do not change weights after scoring starts in a live round: a field ranked under two weightings is not one ranking.
+**Weights stay fixed in a live round.** Changing them after scoring starts leaves a field ranked under two weightings, which is not one ranking.
 
 <!-- /widget -->
 
