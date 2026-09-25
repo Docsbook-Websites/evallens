@@ -2,7 +2,7 @@
 title: "EvalLens documentation"
 description: "Practical reference for setting up a selection project, collecting submissions, running an AI-assisted evaluation, and making the final human ranking."
 status: generated
-version: "0.5"
+version: "0.6"
 ---
 
 # EvalLens documentation
@@ -71,11 +71,16 @@ Pick the stage you are in. [Getting started](./getting-started.md) walks all thr
 
 <!-- widget:cards plain cols=3 arrow=hover -->
 
+### Terms and scoring
+
 - [Core concepts](./concepts.md) — Projects, entries, scores and pipeline terms {compass}
 - [AI judges](./scoring/judges.md) — Judge lenses and routing weights {scan-eye}
 - [Dimensions P1–P6](./scoring/dimensions.md) — Questions and scoring anchors {list-checks}
 - [Score calculation](./scoring/how-the-score-is-built.md) — Aggregation and weighting {sigma}
 - [Reproducibility](./scoring/reproducibility.md) — What is deterministic and what is measured {repeat}
+
+### Safety, pricing and answers
+
 - [Prompt-injection safety](./trust/prompt-injection-safety.md) — Deck text is evidence, never an instruction {shield-check}
 - [Security and privacy](./trust/security-and-privacy.md) — Access and report handling {lock}
 - [Pricing](./pricing.md) — Packages, submission counting and validity {credit-card}
