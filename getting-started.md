@@ -69,3 +69,5 @@ Use a field that your team has already reviewed, such as last year's cohort. Com
 - [Core concepts](./concepts.md) — Learn the terms used across the reference.
 - [Brief your jury](./guides/brief-your-jury.md) — Prepare reviewers before scoring.
 - [What EvalLens does not do](./trust/boundaries.md) — State the product's limits clearly.
+- [Trust and safety](./trust/README.md) — Limits, prompt injection and data access, for your committee or IT office.
+- [Use cases](./use-cases/README.md) — How hackathons, pitch competitions, accelerators, grants and VC calls set up a round.

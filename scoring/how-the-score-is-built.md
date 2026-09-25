@@ -1,9 +1,9 @@
 ---
-title: "How the EvalLens score is built: routing, confidence and aggregation"
+title: "EvalLens score calculation: routing, confidence and aggregation"
 description: "From six judge reads to one advisory AI Total Score — routing weights per dimension, the 15% confidence adjustment, deterministic aggregation, and where your weights apply."
 ---
 
-# How the score is built
+# Score calculation
 
 A fixed calculation combines judge outputs into an advisory AI Total Score on a 0–10 scale. This page is the arithmetic, in the order it runs.
 
@@ -15,7 +15,7 @@ The inputs at this stage are: judge score, routing weight, confidence.
 
 Which judge covers which dimension: [the routing matrix](./judges.md).
 
-## 2 · The confidence adjustment
+## 2 · Confidence adjustment
 
 Confidence is calculated separately from the score and can apply a **limited downward adjustment, capped at 15%**.
 
@@ -27,17 +27,17 @@ Project weights combine the AI Criterion Scores into one advisory AI Total Score
 
 This number informs human review. **It does not determine the final ranking.**
 
-## 4 · The review signal: spread
+## 4 · Review signal: spread
 
 Spread flags consensus, split or conflict between primary and secondary judges on a dimension. It is computed alongside the score and **does not change it** — it tells reviewers where to look closer. See [Disagreement and spread](./disagreement-and-spread.md).
 
-## 5 · The Final Score
+## 5 · Final Score from human Jury Scores
 
 Your criterion weights are applied to the **human Jury Score** to produce the Final Score, and the leaderboard is ranked on that. The AI Total Score sits beside it as a read-only reference.
 
 Because weights apply at this stage rather than inside each judge's reading, the same evidence can be re-ranked under different weights without re-running the batch.
 
-## What is deterministic
+## Deterministic aggregation: no model call
 
 **No model call runs during final aggregation.** Once judge outputs exist, the combination is arithmetic: the same judge scores, routing weights, confidence values and criterion weights produce the same result every time.
 

@@ -9,7 +9,7 @@ Hackathon judging software — sometimes called hackathon management software �
 
 At a hackathon the rubric puts most of the weight on execution and innovation, and then asks a judge to grade both from a three-minute demo video and a four-minute table visit. That gap is what a first read closes.
 
-## The judging table, honestly
+## Judging table, honestly
 
 | Figure | What it is |
 |---|---|
@@ -18,7 +18,7 @@ At a hackathon the rubric puts most of the weight on execution and innovation, a
 | ~5% | Share of projects the average judge actually saw at HackMIT, where 100 judges covered more than 200 projects |
 | 70% | Share of a standard Devpost rubric riding on technical execution and innovation, assessed from a demo video nobody is required to watch to the end |
 
-## The hackathon panel
+## Hackathon panel: five reviewer roles
 
 Hackathon mode runs **five reviewer roles** — Innovation, Technical Execution, Business Value, Pitch Quality and Feasibility — reading every submission independently across six dimensions.
 
@@ -35,7 +35,7 @@ The rubric changes shape rather than just weight:
 
 Execution and technical depth are protected precisely so that **a polished story cannot outrank a working build**. Weights are yours to set before the run and lock when it starts.
 
-## The six steps
+## Six steps to run a hackathon
 
 **1 · Your rubric and tracks, locked.** Criteria, weights and tracks configured per event, plus a methodology line you can publish in the rules. You get a rulebook judges and sponsors can read before the doors open.
 
@@ -49,19 +49,19 @@ Execution and technical depth are protected precisely so that **a polished story
 
 **6 · Leaderboard, then feedback for every team.** The ranking is built from human Jury Scores and your criteria weights. Structured feedback is drafted from the evidence and approved by your staff before it goes out.
 
-## What it reads today, stated plainly
+## Inputs it reads today, stated plainly
 
 Today the panel reads the submission you already collect: the deck, the project description and the team's own notes. Nothing changes for participants and no judge loses a role.
 
 **Reading a repository and a running demo end to end is the next build on the roadmap, not a claim made today.** Anyone quoting execution scores in a closing ceremony should know exactly what those scores were computed from.
 
-## The Monday Discord thread
+## Monday Discord thread
 
 A team that shipped a working build lost to a team that demoed well, and the thread is public with the sponsor cc'd. Today the honest answer is a shrug, because four minutes at a table is genuinely not a review.
 
 With a record, the reply is one message: the Execution and Demo score and its weight, the finding — *two of three feature claims are demonstrated; the third is described, not shown* — the quote and slide it came from, the flagged split on Technical Depth, and the organizer's own Jury Score logged next to the AI read.
 
-## The disclosure kit
+## Disclosure kit
 
 Hackers notice everything and post about all of it. The risk is never the tool; it is defending the tool without a script.
 

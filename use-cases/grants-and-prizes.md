@@ -9,7 +9,7 @@ Grant management software — platforms like Submittable, Fluxx, SmartSimple and
 
 Grant and prize rounds carry two pressures a competition does not: a documented consistency problem, and an appeal that can arrive years later. This page covers both, including the rules that say AI must stay out of merit assessment entirely.
 
-## The review cycle, in numbers
+## Review cycle in numbers
 
 | Figure | What it is |
 |---|---|
@@ -20,7 +20,7 @@ Grant and prize rounds carry two pressures a competition does not: a documented 
 
 The consistency problem here is documented, not hypothetical.
 
-## Read this first: the AI policy question
+## AI policy: read this first
 
 Two different rules, and they have different answers.
 
@@ -32,17 +32,17 @@ Prize programs, foundation calls and competitions that set their own rules can u
 
 **If you are not sure which side your call sits on, that is the first question to settle — before any document moves.**
 
-## The appeal file
+## Appeal file
 
 Three years later, someone asks why an application scored 4.2. Today the answer lives in scanned scoresheets and a departed reviewer's inbox.
 
-With a record, staff opens that application in one click: the AI read and the panel score preserved side by side, each finding tied to the quote and page it came from, and the human sign-off attached.
+**With a record,** staff opens that application in one click: the AI read and the panel score preserved side by side, each finding tied to the quote and page it came from, and the human sign-off attached.
 
-A worked example on Implementation readiness: score 7.8, anchor band 7–8 — finding *three funded pilot sites; two report continuation funding*, quote *"…three pilot deployments; two districts renewed…" · page 14*, evidence strength strong, panel action *confirmed by panel, open question logged for the applicant interview*.
+**Worked example.** On Implementation readiness: score 7.8, anchor band 7–8 — finding *three funded pilot sites; two report continuation funding*, quote *"…three pilot deployments; two districts renewed…" · page 14*, evidence strength strong, panel action *confirmed by panel, open question logged for the applicant interview*.
 
-Field-level change history and rubric versioning are on the roadmap, and where that line sits today is stated before purchase rather than after.
+**Not yet shipped.** Field-level change history and rubric versioning are on the roadmap, and where that line sits today is stated before purchase rather than after.
 
-## The seven steps
+## Seven steps to run a grant round
 
 **1 · Your rubric, locked before the call opens.** Criteria, anchor descriptions, weights and eligibility rules configured in one working session, then applied identically to every application that will ever arrive. Procedural fairness by construction — and a documented methodology you can publish.
 

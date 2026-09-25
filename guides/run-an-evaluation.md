@@ -39,11 +39,11 @@ Each participant receives a structured report with a summary, dimension breakdow
 
 <!-- /widget -->
 
-## What is repeatable
+## Repeatable and variable parts of a run
 
 Aggregation is deterministic once the judge outputs and weights exist. Repeating the judge layer can produce different reads because it uses a language model; [Reproducibility](../scoring/reproducibility.md) describes what is measured.
 
-## What to inspect first
+## First checks after a run
 
 1. **Conflicts** — a spread of `3.0` or more needs human discussion.
 2. **High score with weak evidence** — open the cited findings.

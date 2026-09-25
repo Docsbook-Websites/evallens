@@ -7,7 +7,7 @@ description: "Spread is the highest judge score minus the lowest on a dimension.
 
 Two decks can have the same average score. One may have broad agreement; the other may split the judges. The average alone does not show the difference — and the case it hides is precisely the one a jury exists to discuss.
 
-## The definition
+## Spread: the definition
 
 **Spread** on a dimension is the highest judge score minus the lowest, across the reads that cover it.
 
@@ -17,7 +17,7 @@ Two decks can have the same average score. One may have broad agreement; the oth
 | 1.5 – 2.99 | **Split** | Judges diverge | Worth checking where the views split |
 | ≥ 3.0 | **Conflict** | Strong disagreement | Flagged for human review — read both reads before scoring |
 
-## What spread is not
+## Misreadings of spread
 
 **It is not a penalty.** A high spread does not lower a score automatically, and a low spread does not raise one. Spread routes attention; it does not participate in the arithmetic.
 
@@ -36,7 +36,7 @@ Four combinations, and each asks a different question:
 
 The last row is the one worth pinning up. A contested low score and a agreed-upon low score look identical in a sorted list and mean very different things.
 
-## Why this is published rather than smoothed
+## Published, not smoothed: why conflicts stay visible
 
 Averaging a conflict hides exactly the case a jury exists to discuss. Making disagreement visible has a second effect on human panels: judges who know disagreement is expected stop softening their scores toward the middle. That is why the spread rule belongs in the [briefing pack](../guides/brief-your-jury.md) as well as in the report.
 

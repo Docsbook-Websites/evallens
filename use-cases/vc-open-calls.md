@@ -26,7 +26,7 @@ Google Ventures built "The Machine" to score deals, watched it drift from a dili
 
 Conviction was never the part that needed automating. Reading was.
 
-## The five steps
+## Five steps to run a VC open call
 
 **1 · Frame the program.** Open call, scout batch, fellowship or demo day: your investment dimensions and thesis-fit criteria become the shared rubric, locked before the window opens. Your Typeform or Airtable intake stays; the batch is ingested.
 
@@ -38,7 +38,7 @@ Conviction was never the part that needed automating. Reading was.
 
 **5 · Pass with feedback, under your control.** Evidence-based pass feedback for every founder, reviewed and editable by your team before anything is sent, tone configured to your house style, opt-out per call.
 
-## What a rank traces to
+## Rank provenance: what a rank traces to
 
 A worked example on Market: score 7.6, advisory, on your dimensions — finding *bottom-up sizing grounded in a served niche; top-down claim unsupported*, quote *"…112 paying teams in vertical X, 9% m/m…" · page 8*, red flag *churn not disclosed anywhere in the deck*, and a drafted founder question: *"What's logo churn for the last two quarters?"*
 
@@ -53,7 +53,7 @@ AI-generated feedback going out under a fund's name is one hallucinated critique
 - **Opt-out per call.** Run a silent call when you need to — feedback is a switch, not a default you fight.
 - **Evidence-grounded.** Every point traces to the deck, so a note cannot claim what the record does not hold.
 
-## What this does not replace
+## Limits: what this does not replace
 
 Keep Harmonic, Specter or Affinity — different job. Signal engines discover companies through external data; a pre-seed founder who just applied often has no signal footprint at all, and nothing in that stack reads submitted decks against your criteria. Complementary, not competitive.
 

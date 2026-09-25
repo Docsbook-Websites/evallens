@@ -7,13 +7,13 @@ description: "The six weighted dimensions of the EvalLens pitch panel with ancho
 
 The rubric moves score agreement more than the composition of your jury does. This page is the default EvalLens pitch rubric, what each weight is for, and the one rule worth keeping if you change everything else.
 
-## Why the rubric, not the judges
+## Rubric over judges: why anchors move agreement
 
 A study of Olympic breaking at the Paris 2024 games found expert judge agreement between 0.21 and 0.45 on loosely defined criteria, while artistic gymnastics — which enumerates every observable element — reaches 0.94 to 0.98. Same caliber of judge; the rubric is the difference. A pitch jury scoring "Team" and "Market" on a bare 1-to-10 column sits on the breaking side of that gap.
 
 The related failure is a scale that collapses. In an AIBS grant-review case study, reviewers used only the 1.3-to-4 part of a 1-to-5 scale: without anchors, a ten-point scale becomes a three-point one.
 
-## The default pitch rubric
+## Default pitch rubric
 
 | Dimension | Weight | A 3 looks like | A 7 looks like |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Two adaptations worth knowing:
 - **Demo day.** A cohort that just finished a program has had equal coaching on story, so many organizers shift weight toward Team / founder fit (P5) and Feasibility (P6) and away from pitch polish.
 - **Hackathon.** The rubric changes shape rather than weight: Execution and Demo carries 0.30 and Technical Depth 0.20, both weight-protected, with Problem Impact and Innovation at 0.15 and UX Clarity and Delivery Readiness at 0.10. See [Hackathons](../use-cases/hackathons.md).
 
-## The lock
+## Weight lock once scoring begins
 
 **Once scoring begins, weights freeze.** This is the one rule to keep even if you rewrite every anchor. A field ranked partly under one weighting and partly under another is not a ranking, and the lock is what lets you say every submission was ranked on the same standard.
 

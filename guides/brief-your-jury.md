@@ -7,7 +7,7 @@ description: "What to send judges before scoring starts — rubric with anchors,
 
 What a judge receives *before* the event moves score quality more than anything you can do after it. Feedback afterwards is the intervention that measurably fails; a short briefing before scoring is the one with a number attached.
 
-## The evidence, in three results
+## Evidence: three results behind the pack
 
 | Result | Finding | Source |
 |---|---|---|
@@ -17,7 +17,7 @@ What a judge receives *before* the event moves score quality more than anything 
 
 One conclusion: calibrate before scoring, and write criteria a judge can verify rather than feel.
 
-## The pack: six blocks, in reading order
+## Pack contents: six blocks, in reading order
 
 Send it as one document a week before the event, with the video linked at the top. Everything else about your event belongs in a separate logistics email, so the pack stays about one thing: how to score.
 
@@ -40,7 +40,7 @@ Send it as one document a week before the event, with the video linked at the to
 3. **Show the cost of a wrong band.** Trained reviewers in the same trial picked the correct band 74% of the time against 35% untrained. One concrete example of a misplaced score changing a ranking, and the scale stops being decorative.
 4. **Lock independent scores before any discussion.** Every judge submits before deliberation, the chair speaks last, and discussion resolves flagged conflicts rather than manufacturing agreement.
 
-## The load arithmetic
+## Judge load arithmetic
 
 Promise your judges a number, not an evening.
 

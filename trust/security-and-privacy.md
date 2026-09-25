@@ -7,7 +7,7 @@ description: "Where decks live, who can read them, how access is enforced below 
 
 Pitch decks carry strategy, financials, founder details and — once a round runs — selection outcomes. None of that should move freely or leak through an open link. This page is what happens to a deck after it is uploaded.
 
-## The controlled workspace
+## Organizer-owned workspace
 
 Evaluation runs inside a workspace owned by the organizer, with access scoped to the people and roles on that project.
 
@@ -44,13 +44,13 @@ Reports move through the organizer's workspace rather than through accidental pu
 - Public sub-processor list, published rather than supplied on request.
 - Education discount for university programs.
 
-## The question to ask every AI vendor
+## AI sub-processors: the question to ask every vendor
 
 A 2026 DataGrail review found that **63.6% of vendors advertising AI never name a third-party AI sub-processor in their legal documents** (reported by VentureBeat). That is the gap your security questionnaire exists to close, and it is answerable before a sales call rather than after one.
 
 EvalLens publishes its sub-processors with purpose and processing region for each, alongside the DPA and this page. Bring the questionnaire to the first conversation, not the last.
 
-## The human boundary
+## Human decision boundary
 
 AI prepares the analysis. The organizer reviews it, sets the final scores and decides how the report is used — the AI Total Score is a reference and does not rank participants by itself. That is a privacy property as well as a methodology one: the decision that affects a team's funding, selection and reputation is made by a person who can be asked about it.
 

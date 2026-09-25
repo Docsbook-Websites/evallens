@@ -7,7 +7,7 @@ description: "How a competition round runs end to end: rubric and tracks locked,
 
 The written round is where a competition's fairness claim is usually weakest and hardest to defend. This page is how a round runs when the panel does the first read.
 
-## What the written round costs today
+## Written-round cost today
 
 | Figure | What it is |
 |---|---|
@@ -16,7 +16,7 @@ The written round is where a competition's fairness claim is usually weakest and
 | ~5% | Share of the pool the average judge actually sees at a large event, so scores barely compare |
 | 0 | Teams who see written-round feedback at most major competitions today |
 
-## The six steps
+## Six steps to run a pitch competition
 
 **1 · Rubric and tracks, locked.** Criteria, weights and tracks are configured per competition. Publish a methodology statement in the competition rules — where fairness claims legally live — stating what the panel assists with and what the judges decide.
 
@@ -30,13 +30,13 @@ The written round is where a competition's fairness claim is usually weakest and
 
 **6 · Feedback for every team.** Structured feedback drafted from the evidence and reviewed by your staff before it is sent. For a student competition, feedback for 400 teams is a teaching outcome, not just an event.
 
-## The judge-hour arithmetic
+## Judge-hour arithmetic
 
 400 entries × 3 reads × 1.5 hours = **1,800 judge-hours** consumed by a written round. Those hours are what moves to semis, finals and mentoring — while every entry still gets every page read.
 
 Nothing here reduces judge count. Judge count is a program KPI and a sponsor perk; what changes is the ask. Nobody sponsors an event to do six hours of reading homework — sponsors come to see finalists and be seen.
 
-## What to say, and where
+## Messaging: what to say, and where
 
 - **On stage:** "Every entry received a full read under identical rules, and humans made every ranking decision."
 - **In the rules document:** a methodology paragraph — what AI assists with, what humans decide, how a team can ask about its own record.

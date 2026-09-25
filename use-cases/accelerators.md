@@ -9,7 +9,7 @@ description: "Cohort selection end to end: keep your existing intake, every appl
 
 A cohort intake is a volume problem with a reputation attached: hundreds of applications in a two-to-three-week window, a team of two to five, and a rejection that most founders never get a reason for. This page is how that round runs with a structured first read underneath it.
 
-## The intake, in numbers
+## Intake in numbers
 
 | Figure | What it is |
 |---|---|
@@ -18,7 +18,7 @@ A cohort intake is a volume problem with a reputation attached: hundreds of appl
 | #447 ≠ #1 | Late applications get a different read than early ones — recency and fatigue |
 | 0 | Substantive feedback most rejected founders receive |
 
-## The five steps
+## Five steps to run an accelerator intake
 
 **1 · Keep your intake.** Founders keep applying through F6S, Typeform, YouNoodle or your own form; the batch is ingested — structured answers, decks, video links. Batch export (CSV plus files) works today; platform connectors are scoped during setup. Or use a branded application page instead. Nothing changes for founders.
 
@@ -30,7 +30,7 @@ A cohort intake is a volume problem with a reputation attached: hundreds of appl
 
 **5 · Feedback and the record.** Feedback is drafted from the evidence and approved by your team before anything is sent, so every rejected founder gets a real answer under your name. The program keeps a selection memo and full decision log — the audit trail LP-funded and publicly funded programs are asked for.
 
-## The retro-test
+## Retro-test on decisions you already made
 
 Do not take a vendor's word for how it would perform on your cohort. Test it against decisions you already made.
 
@@ -42,7 +42,7 @@ Do not take a vendor's word for how it would perform on your cohort. Test it aga
 
 Your last cohort is ground truth you already own. The retro-test measures agreement and misses against it before you commit to anything. Larger batches are scoped as a managed pilot.
 
-## What a score unpacks into
+## Score breakdown: what one number unpacks into
 
 A worked example on Team readiness: score 7.8 — finding *two founders shipped a comparable product at their previous company*, quote *"…led the payments team from prototype to 200k users…" · page 11*, confidence high, and a drafted interview question: *"Walk us through what you shipped there."*
 

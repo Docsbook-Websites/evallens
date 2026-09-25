@@ -7,7 +7,7 @@ description: "The six fixed dimensions every deck is scored on, what a 3 looks l
 
 Six questions, one rubric. The dimensions are fixed so that every startup in a batch is compared against the same core questions rather than against whichever criteria a particular reviewer happens to care about.
 
-## The six questions
+## Six dimensions and their default weights
 
 | | Dimension | The question it asks | Default weight |
 |---|---|---|---|
@@ -18,7 +18,7 @@ Six questions, one rubric. The dimensions are fixed so that every startup in a b
 | **P5** | Team / founder fit | Can this team credibly execute? | 0.20 |
 | **P6** | Feasibility / readiness | Is the plan realistic given resources, time and dependencies? | 0.15 |
 
-## The anchors
+## Anchors for each score band
 
 Each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10 — plus its red flags. The top band is reserved for what is **demonstrated**, not merely asserted. Below are the two bands juries argue about most.
 
@@ -58,7 +58,7 @@ Each dimension carries anchors for four bands — 0–3, 4–6, 7–8 and 9–10
 - **A 7 looks like** — a credible, well-sequenced plan with resources that broadly match the ambition, and risks acknowledged.
 - **Red flag** — a roadmap that assumes no setbacks; ignored dependencies that gate the plan.
 
-## How a judge lands on a number
+## Scoring procedure: evidence first, number last
 
 The procedure is fixed, and it runs in this order — evidence first, number last.
 
@@ -67,7 +67,7 @@ The procedure is fixed, and it runs in this order — evidence first, number las
 3. **Name the band.** "This falls in the 7-to-8 band because…" The decision is the band; the number just lives inside it.
 4. **Then the score.** Inside that band. On a boundary with material evidence missing, take the lower band — incomplete decks stay comparable instead of drifting up on benefit of the doubt.
 
-## Which judge scores which dimension
+## Judge routing per dimension
 
 Not every lens influences every dimension. The routing matrix — primary, secondary, advisory, not scored — is on [The six judges](./judges.md).
 

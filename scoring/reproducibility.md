@@ -26,7 +26,7 @@ The AI judge layer runs on a language model, so repeated runs are not always ide
 
 **Benchmark scope.** Internal repeatability benchmark: J-P5 Team Readiness, one deck, 24 runs, June 2026. A multi-deck regression across the full panel is in progress. The scope is stated because a single-deck, single-lens result is evidence about that lens on that deck — not a claim about every deck type.
 
-## The targets for the controlled set
+## Targets for the controlled set
 
 Published as targets, which is a different thing from a result:
 
@@ -36,11 +36,11 @@ Published as targets, which is a different thing from a result:
 - Schema-valid outputs ≥ 99%
 - Regression pass ≥ 95%
 
-## Where the method came from
+## Method origin: 1,000+ internal runs
 
 EvalLens comes out of 1,000+ internal evaluation runs, starting with an Amazon Nova hackathon prototype and the earlier AI Jury system. The current method — fixed dimensions, independent lenses, deterministic aggregation — has 400+ runs behind it. Adding more judges was tried and did not solve quality: scores shifted, roles overlapped, and long reports produced noise instead of clarity. What changed the outcome was structure, not headcount.
 
-## The honest edge
+## Limits: reproducibility is not accuracy
 
 Reproducibility is not accuracy. EvalLens does not promise to predict startup success, and absolute calibration across every deck type is still being proven. What the numbers above support is narrower and more useful: the same deck read twice lands in the same place often enough that a score is a signal rather than a coin flip, and the arithmetic on top of it does not move at all.
 

@@ -1,13 +1,13 @@
 ---
-title: "The six EvalLens judges and the routing matrix"
+title: "EvalLens AI judges: six lenses and the routing matrix"
 description: "What each of the six AI judge lenses reads, why they never see one another's scores, and how much each one influences each dimension — primary, secondary, advisory or not scored."
 ---
 
-# The six judges
+# AI judges and the routing matrix
 
 Evaluation runs through six independent AI judges, each with its own lens. They work in isolated contexts and never see one another's scores. Where they disagree, the report says so instead of averaging it away.
 
-## The lenses
+## Six judge lenses
 
 | Judge | Reads |
 |---|---|
@@ -37,7 +37,7 @@ Two things are worth reading off this table.
 
 **Team Readiness does not score Problem or Solution.** A lens only scores where it has a legitimate read. That is what keeps a strong impression of the founders from bleeding into every dimension.
 
-## Why independence, structurally
+## Independence by structure: isolated contexts
 
 Each judge evaluates in an isolated context. Three consequences:
 
@@ -45,7 +45,7 @@ Each judge evaluates in an isolated context. Three consequences:
 - **Halo effect is split.** Dimensions are read by separate judges, so one strong impression cannot carry the whole scorecard.
 - **Containment.** An instruction hidden in a deck that reaches one context cannot reach another. See [Prompt-injection safety](../trust/prompt-injection-safety.md).
 
-## The other bias controls
+## Other bias controls
 
 | Risk | Control |
 |---|---|
@@ -56,7 +56,7 @@ Each judge evaluates in an isolated context. Three consequences:
 | AI overreach | The AI Total Score is advisory; the human decides |
 | Assumption-filling | Missing evidence becomes a gap or a question, never a guess |
 
-## Where the method comes from
+## Method origin: three startup-evaluation lenses
 
 The Pitch Competition dimension matrix combines three established startup-evaluation lenses rather than being assembled from prompt tricks:
 
@@ -66,7 +66,7 @@ The Pitch Competition dimension matrix combines three established startup-evalua
 
 It is thesis-first by design: a polished deck should not score high if the problem is vague, the customer unclear and the business logic thin.
 
-## The hackathon panel
+## Hackathon panel: five reviewer roles
 
 In Hackathon mode the panel is five reviewer roles — Innovation, Technical Execution, Business Value, Pitch Quality and Feasibility — reading every submission across an execution-weighted rubric. See [Hackathons](../use-cases/hackathons.md).
 
