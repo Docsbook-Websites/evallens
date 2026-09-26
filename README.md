@@ -2,7 +2,7 @@
 title: "EvalLens documentation"
 description: "Practical reference for setting up a selection project, collecting submissions, running an AI-assisted evaluation, and making the final human ranking."
 status: generated
-version: "0.6"
+version: "0.7"
 ---
 
 # EvalLens documentation
@@ -86,6 +86,7 @@ Pick the stage you are in. [Getting started](./getting-started.md) walks all thr
 - [Pricing](./pricing.md) — Packages, submission counting and validity {credit-card}
 - [FAQ](./faq.md) — Operational questions {circle-help}
 - [Glossary](./glossary.md) — Every term in one list {book-a}
+- [Sources and scope](./sources.md) — Method sources, foundations and citation boundaries {library}
 
 <!-- /widget -->
 
